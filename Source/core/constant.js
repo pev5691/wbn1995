@@ -15,7 +15,7 @@ global.MIN_CODE_VERSION_NUM = 1850;
 global.MINING_VERSION_NUM = 0;
 
 global.FORK_MODE = 0;
-global.NETWORK = "TERA-MAIN";
+global.NETWORK = "WBN-MAIN";
 global.START_NETWORK_DATE = 1530446400000;
 global.CONSENSUS_PERIOD_TIME = 1000;
 
@@ -115,7 +115,7 @@ global.USE_NET_FOR_SERVER_ADDRES = 1;
 global.NET_WORK_MODE = undefined;
 global.STAT_MODE = 0;
 global.MAX_STAT_PERIOD = 500;
-global.WALLET_NAME = "TERA";
+global.WALLET_NAME = "WBN";
 global.WALLET_DESCRIPTION = "";
 global.USE_MINING = 0;
 global.POW_MAX_PERCENT = 50;
@@ -270,39 +270,39 @@ if(global.JINN_MODE)
     NETWORK = "JINN";
     if(!global.LOCAL_RUN)
         global.START_NETWORK_DATE = 1584916734000;
-    
+
     global.RESYNC_CONDITION = 0;
     global.REST_BLOCK_SCALE = 100;
     global.DELTA_BLOCK_ACCOUNT_HASH = 30;
     global.PERIOD_ACCOUNT_HASH = 10;
     global.START_BLOCK_ACCOUNT_HASH = 0;
     global.START_BLOCK_ACCOUNT_HASH3 = 1;
-    
+
     global.SMART_BLOCKNUM_START = 0;
     global.START_MINING = 30;
     global.REF_PERIOD_END = 0;
     global.REF_PERIOD_MINING = 10;
-    
+
     global.TEST_TRANSACTION_GENERATE = 0;
     global.MIN_POWER_POW_ACC_CREATE = 8;
-    
+
     global.NEW_ACCOUNT_INCREMENT = 1;
     global.NEW_BLOCK_REWARD1 = 1;
     global.NEW_FORMULA_START = 1;
     global.NEW_FORMULA_KTERA = 3;
     global.NEW_FORMULA_TARGET1 = 0;
     global.NEW_FORMULA_TARGET2 = 1;
-    
+
     global.ALL_VIEW_ROWS = 1;
-    
+
     global.NEW_SIGN_TIME = 0;
-    
+
     global.START_BAD_ACCOUNT_CONTROL = 500000;
     global.BLOCKNUM_TICKET_ALGO = 0;
     global.MIN_POWER_POW_TR = 0;
     global.AUTO_CORRECT_TIME = 0;
     global.CHECK_GLOBAL_TIME = 0;
-    
+
     global.UPDATE_CODE_JINN_1 = 0;
     global.UPDATE_CODE_1 = 0;
     global.UPDATE_CODE_2 = 0;
@@ -311,7 +311,7 @@ if(global.JINN_MODE)
     global.UPDATE_CODE_5 = 0;
     global.UPDATE_CODE_NEW_ACCHASH = 1;
     EXPERIMENTAL_CODE = 0;
-    
+
     global.REST_START_COUNT = 0;
     global.LOAD_TO_BEGIN = 0;
     global.STAT_MODE = 1;
@@ -321,35 +321,35 @@ else
     {
         if(!global.FORK_MODE)
             NETWORK = "LOCAL";
-        
+
         if(global.FORK_MODE || global.LOCAL_RUN === 1)
             global.RESYNC_CONDITION = 0;
         global.REST_BLOCK_SCALE = 100;
-        
+
         global.DELTA_BLOCK_ACCOUNT_HASH = 30;
         global.PERIOD_ACCOUNT_HASH = 10;
         global.START_BLOCK_ACCOUNT_HASH = 1;
         global.START_BLOCK_ACCOUNT_HASH3 = 1;
-        
+
         global.SMART_BLOCKNUM_START = 0;
         global.START_MINING = 60;
         global.REF_PERIOD_END = 0;
         global.REF_PERIOD_MINING = 10;
-        
+
         global.TEST_TRANSACTION_GENERATE = 0;
         global.MIN_POWER_POW_ACC_CREATE = 8;
-        
+
         global.NEW_ACCOUNT_INCREMENT = 1;
         global.NEW_BLOCK_REWARD1 = 1;
         global.NEW_FORMULA_START = 1;
         global.NEW_FORMULA_KTERA = 3;
         global.NEW_FORMULA_TARGET1 = 0;
         global.NEW_FORMULA_TARGET2 = 1;
-        
+
         global.ALL_VIEW_ROWS = 1;
-        
+
         global.NEW_SIGN_TIME = 0;
-        
+
         global.START_BAD_ACCOUNT_CONTROL = 0;
         global.BLOCKNUM_TICKET_ALGO = 0;
         global.MIN_POWER_POW_TR = 0;
@@ -361,7 +361,7 @@ else
         global.UPDATE_CODE_4 = 0;
         global.UPDATE_CODE_5 = 0;
         EXPERIMENTAL_CODE = 0;
-        
+
         global.REST_START_COUNT = 0;
         global.LOAD_TO_BEGIN = 0;
     }
@@ -369,49 +369,49 @@ else
         if(global.TEST_NETWORK)
         {
             global.STANDART_PORT_NUMBER = 40000;
-            
+
             global.REST_BLOCK_SCALE = 100;
-            
+
             var Num = Date.now() - 50 * 1000;
             console.log("CURRENT NUM: " + (Math.trunc(Num / 1000) * 1000));
-            
+
             global.SMART_BLOCKNUM_START = 0;
             global.START_NETWORK_DATE = 1582830189000;
-            
+
             global.START_MINING = 100;
             global.REF_PERIOD_END = 0;
             global.REF_PERIOD_MINING = 200;
             global.MIN_POWER_POW_ACC_CREATE = 8;
-            
+
             global.TRANSACTION_PROOF_COUNT = 200 * 1000;
             global.MAX_SIZE_LOG = 20 * 1024 * 1024;
-            
+
             global.START_BLOCK_ACCOUNT_HASH = 1850000;
             global.START_BLOCK_ACCOUNT_HASH3 = 1;
-            
+
             global.BLOCKNUM_TICKET_ALGO = 0;
-            
+
             global.WALLET_NAME = "TEST";
-            NETWORK = "TERA-TEST";
-            
+            NETWORK = "WBN-TEST";
+
             global.ALL_VIEW_ROWS = 1;
-            
+
             global.NEW_ACCOUNT_INCREMENT = 1;
             global.NEW_BLOCK_REWARD1 = 1;
             global.NEW_FORMULA_START = 1;
             global.NEW_FORMULA_KTERA = 3;
             global.NEW_FORMULA_TARGET1 = 0;
             global.NEW_FORMULA_TARGET2 = 1;
-            
+
             global.NEW_SIGN_TIME = 1;
-            
+
             global.MAX_LENGTH_SENDER_MAP = 100;
             global.DELTA_START_SENDER_MAP = 12;
-            
+
             global.REST_START_COUNT = 10000;
             global.LOAD_TO_BEGIN = 2;
             global.START_BAD_ACCOUNT_CONTROL = 0;
-            
+
             global.UPDATE_CODE_1 = 0;
             global.UPDATE_CODE_2 = 0;
             global.UPDATE_CODE_3 = 0;
@@ -426,7 +426,7 @@ global.GetNetworkName = function ()
 
 global.DEF_VERSION = DEF_MAJOR_VERSION + "." + UPDATE_CODE_VERSION_NUM;
 global.START_CODE_VERSION_NUM = UPDATE_CODE_VERSION_NUM;
-global.DEF_CLIENT = "TERA-CORE";
+global.DEF_CLIENT = "WBN-CORE";
 
 global.FIRST_TIME_BLOCK = START_NETWORK_DATE;
 global.START_BLOCK_RUN = 0;
@@ -564,14 +564,14 @@ function InitParamsArg()
                                             case "API_V2":
                                                 global.USE_HARD_API_V2 = 1;
                                                 break;
-                                                
+
                                             case "TESTJINN":
                                                 global.TEST_JINN = 1;
                                                 break;
                                             case "JINNMODE":
                                                 global.JINN_MODE = 1;
                                                 break;
-                                                
+
                                             case "NOPSWD":
                                                 global.NOHTMLPASSWORD = 1;
                                                 break;

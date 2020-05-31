@@ -22,12 +22,12 @@ global.GetHexFromAddres = function (arr)
 {
     if(!arr)
         return "";
-    
+
     if(arr.data !== undefined)
         arr = arr.data;
     for(var i = 0; i < 32; i++)
         BuferForStr[i] = arr[i];
-    
+
     return BuferForStr.toString('hex').toUpperCase();
 }
 global.GetArr32FromHex = function (Str)
@@ -81,7 +81,7 @@ global.GetHexFromArrBlock = function (Arr,LenBlock)
     {
         Str += GetHexFromArr(Arr2);
     }
-    
+
     return Str;
 }
 
@@ -89,10 +89,10 @@ global.GetPublicKeyFromAddres = function (Arr)
 {
     var RetArr = new Uint8Array(33);
     RetArr[0] = 2;
-    
+
     for(var i = 1; i < 33; i++)
         RetArr[i] = Arr[i - 1];
-    
+
     return RetArr;
 }
 
@@ -100,14 +100,14 @@ global.GetPublicKeyFromAddres = function (Arr)
 global.CheckDevelopSign = function (SignArr,Sign)
 {
     var hash = SHA3BUF(SignArr);
-    
+
     for(var i = 0; i < DEVELOP_PUB_KEY_ARR.length; i++)
     {
         var Result = secp256k1.verify(hash, Buffer.from(Sign), DEVELOP_PUB_KEY_ARR[i]);
         if(Result)
             return 1;
     }
-    
+
     return 0;
 }
 
@@ -126,12 +126,12 @@ global.CheckContextSecret = function (Context,ContextAddrTo)
 
 global.GetSignHash = function (Context,ContextAddrTo,Msg)
 {
-    
+
     CheckContextSecret(Context, ContextAddrTo);
-    
+
     if(typeof Msg === "string")
         Msg = Buffer.from(Msg);
-    
+
     var Buf = Buffer.concat([Msg, ContextAddrTo.Secret], Msg.length + ContextAddrTo.Secret.length);
     var Arr = shaarr(Buf);
     return Arr;
@@ -142,11 +142,11 @@ global.GetVerifyHash = function (Context,ContextAddr,Msg,Sign1)
     try
     {
         var Sign2 = GetSignHash(Context, ContextAddr, Msg);
-        
+
         for(var i = 0; i < Sign1.length; i++)
             if(Sign1[i] !== Sign2[i])
                 return false;
-        
+
         return true;
     }
     catch(e)
@@ -161,12 +161,12 @@ global.GetKeyPair = function (password,secret,startnonce1,startnonce2)
     secret = secret || "low";
     startnonce1 = startnonce1 || 0;
     startnonce2 = startnonce2 || 0;
-    
+
     var KeyPair = crypto.createECDH('secp256k1');
-    
+
     var private1 = shaarr(password);
     var private2 = private1;
-    
+
     var nonce1 = 0;
     if(secret === "high")
         for(nonce1 = startnonce1; nonce1 < 2000000000; nonce1++)
@@ -175,7 +175,7 @@ global.GetKeyPair = function (password,secret,startnonce1,startnonce2)
             private1[30] = (nonce1 >>> 8) & 0xFF;
             private1[29] = (nonce1 >>> 16) & 0xFF;
             private1[28] = (nonce1 >>> 24) & 0xFF;
-            
+
             private2 = shaarr(private1);
             if(private2[0] === 0 && private2[1] === 0 && private2[2] === 0)
             {
@@ -183,7 +183,7 @@ global.GetKeyPair = function (password,secret,startnonce1,startnonce2)
             }
             nonce1++;
         }
-    
+
     var nonce2;
     for(nonce2 = startnonce2; nonce2 < 2000000000; nonce2++)
     {
@@ -191,7 +191,7 @@ global.GetKeyPair = function (password,secret,startnonce1,startnonce2)
         private2[30] = (nonce2 >>> 8) & 0xFF;
         private2[29] = (nonce2 >>> 16) & 0xFF;
         private2[28] = (nonce2 >>> 24) & 0xFF;
-        
+
         KeyPair.setPrivateKey(Buffer.from(private2));
         var Data = KeyPair.getPublicKey('', 'compressed');
         if(Data[0] === 2 && Data[31] === 0 && Data[32] === 0)
@@ -206,7 +206,7 @@ global.GetKeyPair = function (password,secret,startnonce1,startnonce2)
         }
         nonce2++;
     }
-    
+
     throw "ERROR. Key pair not found. Try another password!";
 }
 
@@ -214,14 +214,14 @@ global.GetKeyPairTest = function (password,Power)
 {
     var KeyPair = crypto.createECDH('secp256k1');
     var private2 = shaarr(password);
-    
+
     for(var nonce2 = 0; nonce2 < 1000000000; nonce2++)
     {
         private2[31] = nonce2 & 0xFF;
         private2[30] = (nonce2 >> 8) & 0xFF;
         private2[29] = (nonce2 >> 16) & 0xFF;
         private2[28] = (nonce2 >> 24) & 0xFF;
-        
+
         KeyPair.setPrivateKey(Buffer.from(private2));
         var Data = KeyPair.getPublicKey('', 'compressed');
         if(Data[0] === 2)
@@ -232,7 +232,7 @@ global.GetKeyPairTest = function (password,Power)
                 if(nBits < Power)
                     continue;
             }
-            
+
             KeyPair.PubKeyArr = Data;
             KeyPair.addrArr = KeyPair.PubKeyArr.slice(1);
             KeyPair.addrStr = GetHexFromArr(KeyPair.addrArr);
@@ -240,7 +240,7 @@ global.GetKeyPairTest = function (password,Power)
             return KeyPair;
         }
     }
-    
+
     throw "ERROR. Key pair not found. Try another password!";
 }
 
@@ -258,17 +258,17 @@ function GetHashWithValues(hash0,value1,value2,bNotCopy)
         hash = hash0;
     else
         hash = hash0.slice();
-    
+
     hash[0] = value1 & 0xFF;
     hash[1] = (value1 >>> 8) & 0xFF;
     hash[2] = (value1 >>> 16) & 0xFF;
     hash[3] = (value1 >>> 24) & 0xFF;
-    
+
     hash[4] = value2 & 0xFF;
     hash[5] = (value2 >>> 8) & 0xFF;
     hash[6] = (value2 >>> 16) & 0xFF;
     hash[7] = (value2 >>> 24) & 0xFF;
-    
+
     var arrhash = shaarr(hash);
     return arrhash;
 }
@@ -292,7 +292,7 @@ function GetPowValue(arrhash)
     var value = (arrhash[0] << 23) * 2 + (arrhash[1] << 16) + (arrhash[2] << 8) + arrhash[3];
     value = value * 256 + arrhash[4];
     value = value * 256 + arrhash[5];
-    
+
     return value;
 }
 
@@ -305,14 +305,14 @@ function CreateNoncePOWExtern(arr0,BlockNum,count,startnone)
         arr[i] = arr0[i];
     if(!startnone)
         startnone = 0;
-    
+
     var maxnonce = 0;
     var supervalue = MAX_SUPER_VALUE_POW;
     for(var nonce = startnone; nonce <= startnone + count; nonce++)
     {
         var arrhash = GetHashWithValues(arr, nonce, BlockNum, true);
         var value = GetPowValue(arrhash);
-        
+
         if(value < supervalue)
         {
             maxnonce = nonce;
@@ -327,7 +327,7 @@ function CreateNoncePOWExternMinPower(arr0,BlockNum,MinPow)
     var arr = [];
     for(var i = 0; i < arr0.length; i++)
         arr[i] = arr0[i];
-    
+
     var nonce = 0;
     while(1)
     {
@@ -367,7 +367,7 @@ function CalcMerkl3FromArray(Arr,BlockNum,Tree0)
         Tree = {Levels:[], Full:true};
     }
     Tree.Levels.push(Arr);
-    
+
     if(Arr.length < 2)
     {
         if(Arr.length === 0)
@@ -379,15 +379,15 @@ function CalcMerkl3FromArray(Arr,BlockNum,Tree0)
             else
                 Tree.Root = sha3(Arr[0], 20);
         }
-        
+
         return Tree;
     }
-    
+
     if(bSort && BlockNum < global.UPDATE_CODE_4)
     {
         Arr.sort(CompareArr);
     }
-    
+
     var Arr2 = [];
     var len = Math.floor(Arr.length / 2);
     for(var i = 0; i < len; i++)
@@ -399,7 +399,7 @@ function CalcMerkl3FromArray(Arr,BlockNum,Tree0)
     {
         Arr2.push(Arr[Arr.length - 1]);
     }
-    
+
     return CalcMerkl3FromArray(Arr2, BlockNum, Tree);
 }
 
@@ -417,7 +417,7 @@ function CalcMerkl0FromArray(Arr,Tree0)
         Tree = {Levels:[], Full:true};
     }
     Tree.Levels.push(Arr);
-    
+
     if(Arr.length < 2)
     {
         if(Arr.length === 0)
@@ -429,15 +429,15 @@ function CalcMerkl0FromArray(Arr,Tree0)
             else
                 Tree.Root = shaarr(Arr[0]);
         }
-        
+
         return Tree;
     }
-    
+
     if(bSort)
     {
         Arr.sort(CompareArr);
     }
-    
+
     var Arr2 = [];
     var len = Math.floor(Arr.length / 2);
     for(var i = 0; i < len; i++)
@@ -449,7 +449,7 @@ function CalcMerkl0FromArray(Arr,Tree0)
     {
         Arr2.push(Arr[Arr.length - 1]);
     }
-    
+
     return CalcMerkl0FromArray(Arr2, Tree);
 }
 
@@ -470,7 +470,7 @@ function CalcTreeHashFromArrBody(BlockNum,arrContent)
     if(arrContent)
     {
         var arrHASH = [];
-        
+
         for(var i = 0; i < arrContent.length; i++)
         {
             var HASH;
@@ -495,16 +495,16 @@ function CalcTreeHashFromArrBody(BlockNum,arrContent)
 
 function TestMerklTree()
 {
-    
+
     var h1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     var h2 = sha3("2", 22);
     var h3 = sha3("3");
     var h4 = sha3("4");
     var h5 = sha3("5");
-    
+
     var Tree = {RecalcCount:0};
     var CalcMap = {};
-    
+
     Tree.LevelsHash = [[h1, h2]];
     Tree.RecalcCount = 0;
     CalcMap[0] = 1;
@@ -523,14 +523,14 @@ function TestMerklTree()
     UpdateMerklTree(Tree, CalcMap, 0);
     ToLog("Root=" + GetHexFromArr(Tree.Root));
     ToLog("RecalcCount=" + Tree.RecalcCount);
-    
+
     return Tree;
 }
 
 if(0)
     setTimeout(function ()
     {
-        
+
         TestMerkleProof(100);
         ToLog("=========END=========");
         process.exit(0);
@@ -552,14 +552,14 @@ function TestMerkleProof(CountTest)
         }
         UpdateMerklTree(Tree, CalcMap, 0);
         ToLog("Hash1=" + GetHexFromArr(Tree.Root) + " CountItems:" + CountItems);
-        
+
         var FirstNum = Math.floor(Math.random() * CountItems / 2);
         var LastNum = Math.floor(CountItems / 2 + Math.random() * CountItems / 2);
         var Ret = GetMerkleProof(Tree.LevelsHash, FirstNum, LastNum);
-        
+
         var ArrM = Tree.LevelsHash[0].slice(FirstNum, LastNum + 1);
         var Hash2 = CheckMerkleProof(Ret.ArrL, ArrM, Ret.ArrR);
-        
+
         ToLog("Hash2=" + GetHexFromArr(Hash2) + "  FirstNum=" + FirstNum + "/" + LastNum);
         if(CompareArr(Tree.Root, Hash2) !== 0)
             throw ("=========ERROR HASHTEST==============");
@@ -579,14 +579,14 @@ function GetMerkleProof(LevelsHash,FirstNum,LastNum)
         var LevelArr = LevelsHash[L];
         if(CurL % 2 === 1)
             ArrL[L] = LevelArr[CurL - 1];
-        
+
         if(CurR % 2 === 0 && CurR + 1 < LevelArr.length)
             ArrR[L] = LevelArr[CurR + 1];
-        
+
         CurL = Math.floor(CurL / 2);
         CurR = Math.floor(CurR / 2);
     }
-    
+
     return {ArrL:ArrL, ArrR:ArrR};
 }
 
@@ -601,16 +601,16 @@ function CheckMerkleProof(ArrL,ArrM,ArrR)
             Arr.unshift(ArrL[L]);
         if(ArrR[L])
             Arr.push(ArrR[L]);
-        
+
         if(Arr.length <= 1 && L >= ArrL.length && L >= ArrR.length)
         {
             if(!Arr.length)
                 return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
             return Arr[0];
         }
-        
+
         var length2 = Math.floor(Arr.length / 2);
-        
+
         Arr2 = [];
         for(i = 0; i < length2; i++)
         {
@@ -619,16 +619,16 @@ function CheckMerkleProof(ArrL,ArrM,ArrR)
         }
         if(Arr.length / 2 > length2)
             Arr2.push(Arr[Arr.length - 1]);
-        
+
         L++;
     }
 }
 
 function UpdateMerklTree(Tree,CalcMap,NumLevel)
 {
-    
+
     var HashArr = Tree.LevelsHash[NumLevel];
-    
+
     if(!HashArr || !HashArr.length)
     {
         Tree.LevelsHash.length = NumLevel + 1;
@@ -651,10 +651,10 @@ function UpdateMerklTree(Tree,CalcMap,NumLevel)
                 HashArr2 = [];
                 Tree.LevelsHash[NumLevel + 1] = HashArr2;
             }
-            
+
             var len2 = Math.floor(HashArr.length / 2);
             HashArr2.length = Math.floor(0.5 + HashArr.length / 2);
-            
+
             var Count = 0;
             var LastIndex = HashArr.length - 1;
             for(var key in CalcMap)
@@ -681,7 +681,7 @@ function UpdateMerklTree(Tree,CalcMap,NumLevel)
                         }
                 }
             }
-            
+
             if(Count)
             {
                 Tree.RecalcCount += Count;
@@ -712,7 +712,7 @@ function Mesh(s,Count)
         c7 = s[7] ^ s[17] ^ s[27] ^ s[37] ^ s[47];
         c8 = s[8] ^ s[18] ^ s[28] ^ s[38] ^ s[48];
         c9 = s[9] ^ s[19] ^ s[29] ^ s[39] ^ s[49];
-        
+
         h = c8 ^ ((c2 << 1) | (c3 >>> 31));
         l = c9 ^ ((c3 << 1) | (c2 >>> 31));
         s[0] ^= h;
@@ -773,7 +773,7 @@ function Mesh(s,Count)
         s[39] ^= l;
         s[48] ^= h;
         s[49] ^= l;
-        
+
         b0 = s[0];
         b1 = s[1];
         b32 = (s[11] << 4) | (s[10] >>> 28);
@@ -824,7 +824,7 @@ function Mesh(s,Count)
         b27 = (s[39] << 8) | (s[38] >>> 24);
         b8 = (s[48] << 14) | (s[49] >>> 18);
         b9 = (s[49] << 14) | (s[48] >>> 18);
-        
+
         s[0] = b0 ^ (~b2 & b4);
         s[1] = b1 ^ (~b3 & b5);
         s[10] = b10 ^ (~b12 & b14);
@@ -875,7 +875,7 @@ function Mesh(s,Count)
         s[39] = b39 ^ (~b31 & b33);
         s[48] = b48 ^ (~b40 & b42);
         s[49] = b49 ^ (~b41 & b43);
-        
+
         s[0] ^= RC[n];
         s[1] ^= RC[n + 1];
     }
@@ -911,11 +911,11 @@ function Encrypt(Arr,Arr2,ArrSecret)
     arrRnd.writeUInt32LE(GlobalCryptID, 1, 4);
     var Time = Math.floor((Date.now() - DeltaTimeCryptID) / 1000);
     arrRnd.writeUInt32LE(Time, 5, 4);
-    
+
     Arr2[0] = Arr[0];
     for(var i = 1; i < StartLen; i++)
         Arr2[i] = arrRnd[i];
-    
+
     var SecretBuf = Buffer.concat([Arr2.slice(0, StartLen), ArrSecret]);
     DoSecret(Arr, Arr2, SecretBuf, 9);
 }
@@ -934,12 +934,12 @@ function DoSecret(Arr,Arr2,SecretBuf,StartLen)
     while(Pos < Arr.length)
     {
         var CurBuf = shaarr(SecretBuf);
-        
+
         for(var i = 0; i < 32 && Pos < Arr.length; i++, Pos++)
         {
             Arr2[Pos] = Arr[Pos] ^ CurBuf[i];
         }
-        
+
         CryptID++;
         SecretBuf.writeUInt32LE(CryptID, 5, 4);
     }
@@ -951,14 +951,14 @@ function TestEncryptDecrypt()
     var Arr = GetArrFromStr("  Secret message", 64);
     var Arr2 = Buffer.from(new Uint8Array(Arr.length));
     var Arr3 = Buffer.from(new Uint8Array(Arr.length));
-    
+
     console.log("Message:");
     console.log(Arr);
     console.log("-------------------");
     Encrypt(Arr, Arr2, ArrSecret);
     console.log("Encrypt:");
     console.log(Arr2);
-    
+
     console.log("-------------------");
     Decrypt(Arr2, Arr3, ArrSecret);
     console.log("Decrypt:");
@@ -997,7 +997,7 @@ function Utf8ArrayToStr(array)
 {
     var out, i, len, c;
     var char2, char3;
-    
+
     out = "";
     len = array.length;
     i = 0;
@@ -1028,7 +1028,7 @@ function Utf8ArrayToStr(array)
                 break;
         }
     }
-    
+
     for(var i = 0; i < out.length; i++)
     {
         if(out.charCodeAt(i) === 0)
@@ -1090,32 +1090,31 @@ global.IsDeveloperAccount = function (Key)
     return 0;
 }
 
-global.DEVELOP_PUB_KEY_ARR = ["027e9fab89ea5dc9fad3cc45263b16d34a84be9460a71b33b58a0655ebccfce431", "02250c8c8f7f7e1468cdc5e9b9203841ba14250e2f480f77ebcd502f3e691506d8",
-"027c0caec4e6f8f08d220f6dab24bb6f53d3f1d7b95231216805d9fac85d34a95f", "025defd5b884cc02f6948cd0d62b03d7b7445bf942206ab935158b6be8f0f7a2ce",
-"024a97d69cd81c965f162b4b8b7b506263bc8aec8dbcea9eec59f73b5b470a0be1", ];
+global.DEVELOP_PUB_KEY_ARR = ["023FAE6A4A7369889A7A6DC913708002E7D68EF56107761BB414CD8479062125EA", "038D34FBAC518172415064253753AE582DADE0CBBCF678FDAFB4D2844DC85DF5B7",
+"030F65B07FCEEFDF1CCDF20231483F25C278EA2EFA885616FC5B7DB43C5E0AC8D8", "02F5F165A56EE054F1567492157AB5D42E87155BEFF85F3DC11BAB3C378F4E3056",
+"0263F5C984448B545113B7B002C60EE5EB964518FE94617A9584D1CA38085946F9", ];
 for(var i = 0; i < DEVELOP_PUB_KEY_ARR.length; i++)
     DEVELOP_PUB_KEY_ARR[i] = Buffer.from(GetArrFromHex(DEVELOP_PUB_KEY_ARR[i]));
 global.DEVELOP_PUB_KEY = DEVELOP_PUB_KEY_ARR[0];
-global.DEVELOP_PUB_KEY0 = Buffer.from(GetArrFromHex("022e80aa78bc07c72781fac12488096f0bfa7b4f48fbab0f2a92e208d1ee3654df"));
+global.DEVELOP_PUB_KEY0 = Buffer.from(GetArrFromHex("025BF96E71BBEA6E3F0BFCE5BCA4087FD5E3B27E23AC4AEEAFEEF79844D811C0C2"));
 
 if(LOCAL_RUN)
 {
-    global.DEVELOP_PUB_KEY0 = Buffer.from(GetArrFromHex("026A04AB98D9E4774AD806E302DDDEB63BEA16B5CB5F223EE77478E861BB583EB3"));
+    global.DEVELOP_PUB_KEY0 = Buffer.from(GetArrFromHex("034207B68328949E2F6C9CE124E65ECBB8585C920D748E1D3B3E4A2FE202B842E7"));
     global.DEVELOP_PUB_KEY = global.DEVELOP_PUB_KEY0;
 }
 
-global.ARR_PUB_KEY = ["027ae0dce92d8be1f893525b226695ddf0fe6ad756349a76777ff51f3b59067d70", "02769165a6f9950d023a415ee668b80bb96b5c9ae2035d97bdfb44f356175a44ff",
-"021566c6feb5495594fc4bbea27795e1db5a663b3fe81ea9846268d5c394e24c23", "0215accbc993e67216c9b7f3912b29b91671864e861e61ab73589913c946839efa",
-"0270e0c5acb8eefe7faddac45503da4885e02fb554975d12907f6c33ac6c6bdba5", "0202f2aad628f46d433faf70ba6bf12ab9ed96a46923b592a72508dc43af36cb80",
-"0254f373fc44ac4a3e80ec8cb8cc3693a856caa82e0493067bdead78ce8ec354b8", "027617f9511b0b0cdbda8f3e17907732731296321846f3fd6fd19460f7227d9482",
+global.ARR_PUB_KEY = ["029B70EA8D7E2391673DC526212EAF8CBB6C0E1D47D84FFA6575ECCBB9222C3969", "023FAE6A4A7369889A7A6DC913708002E7D68EF56107761BB414CD8479062125EA",
+"031C170D83E13F289966FE438D069CB7A076019555E5D5034002FB93D54B4C5D12", "03C5E578A9041FC102D7222A3D46E20519C2ED5AEABC9ED11D768E6C0FCB001377",
+"037D658B7BAB14968526E68C116C9F850FF6CE73E2449D452D26F3546E934DBB6A", "03AD00C6EE1A0404D41FD97950B8A54FFA4F7826E28A6A8651B61DF71BD2FCD6D5",
+"038A81AC5B937FCE54C5C5A7762DE878A0C41C28F7116DEECD24CA68CD44A1C6E2", "035C37B51240B5DA2A0D2038460C0BBA0D2906F5AB4C6E1AFF917407F55C7E2DBC",
 ];
 
 if(global.TEST_NETWORK || LOCAL_RUN)
 {
     for(var i = 0; i < 100; i++)
         global.ARR_PUB_KEY[i] = GetHexFromArr(DEVELOP_PUB_KEY0);
-    
+
     global.DEVELOP_PUB_KEY_ARR = [DEVELOP_PUB_KEY0];
     global.DEVELOP_PUB_KEY = DEVELOP_PUB_KEY_ARR[0];
 }
-

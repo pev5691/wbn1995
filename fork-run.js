@@ -4,10 +4,11 @@ global.START_NETWORK_DATE = 1590866000000; //formula of it value is (new Date(20
 global.CONSENSUS_PERIOD_TIME = 2000; //ms
 global.FORK_IP_LIST = [
   {"ip":"188.170.194.168","port":50005},
-  {"ip":"10.42.0.1","port":50005},
-  {"ip":"127.0.0.1","port":50006},
   {"ip":"194.67.221.153","port":50005},
-  {"ip":"127.0.0.1","port":50005}];
+  {"ip":"10.42.0.1","port":50005},
+  {"ip":"127.0.0.1","port":50005},
+  {"ip":"127.0.0.1","port":50006},
+  {"ip":"127.0.0.1","port":50007}];
 /*
 global.FORK_MODE=1;
 global.NETWORK="FORK-MAIN";//10
