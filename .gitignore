@@ -1,0 +1,10 @@
+*.zip
+*.log
+*.pdf
+*.exe
+package-lock.json
+BIN/*
+DATA/*
+node_modules/*
+Doc/*
+Source/node_modules/*
