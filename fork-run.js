@@ -9,8 +9,7 @@ global.FORK_IP_LIST = [
   {"ip":"188.227.85.27","port":50005}     // Server Space
   {"ip":"10.42.0.1","port":50005},        // ubuntu router
   {"ip":"127.0.0.1","port":50005},
-  {"ip":"127.0.0.1","port":50006},
-];
+  {"ip":"127.0.0.1","port":50006},];
 /*
 global.FORK_MODE=1;
 global.NETWORK="FORK-MAIN";//10
