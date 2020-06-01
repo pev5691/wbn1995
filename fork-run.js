@@ -5,8 +5,8 @@ global.CONSENSUS_PERIOD_TIME = 2000; //ms
 global.FORK_IP_LIST = [
   {"ip":"185.26.121.248","port":50005},   // hostland
   {"ip":"194.67.221.153","port":50005},   // ihor vasyliy
+  {"ip":"188.227.85.27","port":50005},    // Server Space
   {"ip":"188.170.194.168","port":50005},  // modem router
-  {"ip":"188.227.85.27","port":50005}     // Server Space
   {"ip":"10.42.0.1","port":50005},        // ubuntu router
   {"ip":"127.0.0.1","port":50005},
   {"ip":"127.0.0.1","port":50006},];
