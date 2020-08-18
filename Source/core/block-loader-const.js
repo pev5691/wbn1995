@@ -1,14 +1,13 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
-
-
 
 global.PERIOD_GET_BLOCK = 300;
 global.COUNT_HISTORY_BLOCKS_FOR_LOAD = 600;

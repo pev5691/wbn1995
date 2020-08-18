@@ -1,11 +1,12 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
 
 const fs = require('fs');

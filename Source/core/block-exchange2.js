@@ -1,13 +1,13 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
-
 
 const OBJECT_FORMAT_TRANSFER2 = {Version:"uint16", TransferTx:[{BlockNum:"uint", TxArray:[{body:"tr"}]}], TransferPOW:[{BlockNum:"uint",
         Hash:[{SeqHash:"hash", AddrHash:"hash"}]}], Slots:{BlockNum:"uint", State:[{DeltaHeaderNum:"uint16", DeltaBlockNum:"uint16"}],

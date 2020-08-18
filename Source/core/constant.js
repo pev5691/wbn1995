@@ -1,11 +1,11 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * Web:
+ * Twitter:
+ * Telegram:
 */
 
 global.UPDATE_CODE_VERSION_NUM = 1995;

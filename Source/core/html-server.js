@@ -1,11 +1,12 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
 
 
@@ -1056,7 +1057,7 @@ HTTPCaller.SetCheckNetConstant = function (Data)
     if(Ret !== true)
         return Ret;
     
-    if(!Data || !Data.TERA)
+    if(!Data || !Data.WBN)
     {
         ToLogClient("Data not set");
         return {result:0, text:"Data not set"};
@@ -1075,12 +1076,12 @@ HTTPCaller.SetCheckNetConstant = function (Data)
     }
     else
     {
-        var DataTera = Data.TERA;
-        DataTera.Num = Num;
-        DataTera.BlockNum = BlockNum;
-        var SignArr = SERVER.GetSignCheckNetConstant(DataTera);
-        DataTera.Sign = secp256k1.sign(SHA3BUF(SignArr), WALLET.KeyPair.getPrivateKey('')).signature;
-        SERVER.CheckNetConstant({NetConstant:DataTera}, {addrStr:"local"});
+        var DataWBN = Data.WBN;
+        DataWBN.Num = Num;
+        DataWBN.BlockNum = BlockNum;
+        var SignArr = SERVER.GetSignCheckNetConstant(DataWBN);
+        DataWBN.Sign = secp256k1.sign(SHA3BUF(SignArr), WALLET.KeyPair.getPrivateKey('')).signature;
+        SERVER.CheckNetConstant({NetConstant:DataWBN}, {addrStr:"local"});
         SERVER.ResetNextPingAllNode();
     }
     
