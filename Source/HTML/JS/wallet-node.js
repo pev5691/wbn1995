@@ -1,11 +1,12 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
 
 function SavePrivateKey()
@@ -109,7 +110,7 @@ function SetNetConstJSON()
 {
     var Str = JSON.stringify(Data, "", 2);
     $("idDevService").value = Str;
-    var Data = {TERA:{MaxTrasactionLimit:CONFIG_DATA.MAX_TRANSACTION_LIMIT, ProtocolVer:CONFIG_DATA.PROTOCOL_VER, ProtocolMode:CONFIG_DATA.PROTOCOL_MODE,
+    var Data = {WBN:{MaxTrasactionLimit:CONFIG_DATA.MAX_TRANSACTION_LIMIT, ProtocolVer:CONFIG_DATA.PROTOCOL_VER, ProtocolMode:CONFIG_DATA.PROTOCOL_MODE,
             MaxLevel:CONFIG_DATA.MAX_LEVEL, }, JINN:CONFIG_DATA.JINN_NET_CONSTANT};
     
     if(Data.JINN)
