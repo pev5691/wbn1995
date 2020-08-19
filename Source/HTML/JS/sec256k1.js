@@ -1,12 +1,12 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
- * @copyright: Yuriy Ivanov 2017-2019 [progr76@gmail.com]
  * @license: MIT (not for evil)
- * Web: http://terafoundation.org
- * GitHub: https://github.com/terafoundation/wallet
- * Twitter: https://twitter.com/terafoundation
- * Telegram: https://web.telegram.org/#/im?p=@terafoundation
+ * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
 
 "use strict";

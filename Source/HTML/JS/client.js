@@ -1,11 +1,12 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
 
 
@@ -1410,7 +1411,7 @@ function SaveValuesByArr(Arr,DopStr)
 
 
 var MapCurrency = {};
-MapCurrency[0] = "TERA";
+MapCurrency[0] = "WBN";
 MapCurrency[16] = "BTC";
 
 var bWasCodeSys = 0;
@@ -1422,10 +1423,10 @@ MapCurrencyIcon[16] = "./PIC/B.svg";
 
 function InitMapCurrency()
 {
-    if(window.NETWORK_NAME === "TERA-TEST")
+    if(window.NETWORK_NAME === "WBN-TEST")
     {
         MapCurrency = {};
-        MapCurrency[0] = "TERA";
+        MapCurrency[0] = "WBN";
         MapCurrency[9] = "BTC";
         MapCurrency[10] = "USD";
     }

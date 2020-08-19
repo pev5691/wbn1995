@@ -1,11 +1,12 @@
 /*
- * @project: TERA
+ * @project: WBN
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @reright: pev5691@yandex.ru
+ * Web:
+ * Twitter:
+ * Telegram:
 */
 
 var MAX_SUPER_VALUE_POW = (1 << 30) * 2;
@@ -134,7 +135,7 @@ window.SetBlockChainConstant = function (Data)
     if(NETWORK === "LOCAL")
         window.LOCAL_RUN = 1;
     else
-        if(window.NETWORK.substr(0, 9) === "TERA-TEST")
+        if(window.NETWORK.substr(0, 9) === "WBN-TEST")
             window.TEST_NETWORK = 1;
     
     var DeltaServerClient = new Date() - Data.CurTime;
