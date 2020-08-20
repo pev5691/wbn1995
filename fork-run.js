@@ -5,7 +5,7 @@ global.CONSENSUS_PERIOD_TIME = 2000; //ms
 
 global.FORK_IP_LIST = [
 //    {"ip":"185.26.121.248","port":50005},   // hostland
-    {"ip":"194.67.221.153","port":50005},   // ihor vasyliy
+    {"ip":"194.67.221.153","port":50005},   // ihor totoha
 //    {"ip":"188.227.85.27","port":50005},    // Server Space
     {"ip":"194.147.78.188","port":50005}];  // Vdska 194.147.78.188
 

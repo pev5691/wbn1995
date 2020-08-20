@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TERA WALLET</title>
+    <title>WBN WALLET</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./tera.ico" type="image/vnd.microsoft.icon">
@@ -62,8 +62,8 @@
                 <path d="M446.68,530.15l5.59-9.23a19.86,19.86,0,0,0,0-22.68L417.74,442.3l-39.5-64a10.2,10.2,0,0,0-17.63.46L98.31,811.68a10.17,10.17,0,0,0,8.95,15H250.82l-0.05,0h4.28l6.23,0h0a10.12,10.12,0,0,0,8.9-5.3,0,0,0,0,0,0,0l5.89-9.77a9.82,9.82,0,0,0,.74-1.15s0,0,0,0l6.4-10.57c55.06-90.94,107.53-177.76,162.52-268.28C446.12,531.11,446.41,530.63,446.68,530.15Z" />
             </svg>
         </div>
-        <h1 class="welcome__title title">Welcome to TERA Wallet</h1>
-        <p><a onclick="OpenHelp()" class="pointer">Tera Wallet Guide...</a></p>
+        <h1 class="welcome__title title">Welcome to WellBeing Network Wallet</h1>
+        <p><a onclick="OpenHelp()" class="pointer">WellBeing Network Wallet Guide...</a></p>
         <p><a onclick="SelectTab('TabKeySet')" class="pointer">ATTENTION: Before using the wallet, save the private key.</a></p>
 
         <ul id="idStableScroll" align='center' class="social-list">
@@ -159,7 +159,7 @@
         <div class="accounts-info__empty hidden" >
             <p class="accounts-info__counter title"><span class="accounts-info__number">0 Accounts</span></p>
             <p class="title text-center">You have no accounts yet</p>
-            <p class="text-center">Create your first account and start using TERA</p>
+            <p class="text-center">Create your first account and start using WBN</p>
             
             <button class="btn btn--full-width btn--270 accounts-info__btn" onclick="OnViewAddAccount()">+ CREATE A NEW ACCOUNT</button>
         </div>
@@ -201,7 +201,7 @@
         <div class="accounts-info__acc-list hidden">
 
             <div class="accounts-info__counter-wrapper">
-                <a href="https://terafoundation.org/tera-coin.html" target="_blank" class="accounts-info__to-send-link">Buy/sell/mine TERA</a>
+                <a href="https://terafoundation.org/tera-coin.html" target="_blank" class="accounts-info__to-send-link">Buy/sell/mine WBN</a>
                 <p class="title" style="font-size: 16px;"><span class="accounts-info__number" id="idListCount">4</span> <span>Account(s)</span></p>
                 <a class="btn" onclick="OnViewAddAccount()">+ CREATE NEW</a>
             </div>
@@ -357,7 +357,7 @@
                     <dt class="confirm-info__title">Amount:</dt>
                     <dd class="confirm-info__descr">
                         <span id="idConfirmAmount" style="color: #ff791a">100000</span>
-                        <span id="idConfirmCurrency">TERA</span>
+                        <span id="idConfirmCurrency">WBN</span>
                     </dd>
                 </div>
                 <div class="confirm-info__line">
@@ -648,8 +648,8 @@
     <div class="fixed-status__wrap">
         <div id="idStatus" class="fixed-status__status">&nbsp;</div>
         <select  class="grey-btn" id="idCurNetwork" onchange="ChangeNetwork(1)">
-            <option value="TERA-MAIN">TERA MAIN</option>
-            <option value="TERA-TEST">TERA TEST</option>
+            <option value="WBN-MAIN">WBN MAIN</option>
+            <option value="WBN-TEST">WBN TEST</option>
         </select>
         <button class="grey-btn reconnect" onclick="ChangeNetwork()" title="Reconnect"><span>RECONNECT</span></button>
         <!--рудименты-->
