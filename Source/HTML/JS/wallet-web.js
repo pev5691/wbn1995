@@ -40,7 +40,7 @@ function StartWebWallet()
 {
     if(NETWORK_NAME === "WBN-MAIN")
     {
-        MIN_SUM_POWER = COUNT_BLOCK_PROOF * 35;
+        MIN_SUM_POWER = COUNT_BLOCK_PROOF * 1;
         ServerMap = ServerMainMap;
     }
     else
