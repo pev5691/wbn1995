@@ -1,10 +1,13 @@
 {
-  "name": "Tera",
+  "name": "wellbeing",
   "version": "1.0.0",
-  "description": "Tera wallet",
+  "description": "Node WellBeing Network",
   "main": "run-nw.js",
-  "main2": "run-electron.js",
-  "repository": "https://gitlab.com/terafoundation/tera",
+  "main2": "run-node.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pev5691/wbn1995.git"
+  },
   "keywords": [
     "wallet",
     "cryptowallet",
@@ -13,16 +16,24 @@
     "cryptocurrency",
     "cryptomessenger"
   ],
-  "author": "progr76@gmail.com",
+  "author": "pev5691@yandex.ru",
   "license": "MIT",
   "dependencies": {
     "bintrees": "^1.0.2",
     "greenlock": "^2.6.7",
     "nat-upnp": "^1.1.1",
     "ntp-client": "^0.5.3",
-    "secp256k1": "^3.6.2",
+    "secp256k1": "^3.8.0",
     "stun": "^1.1.1",
     "uglify-js": "^3.4.9",
     "zip": "^1.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pev5691/wbn1995/issues"
+  },
+  "homepage": "https://github.com/pev5691/wbn1995#README",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

@@ -93,15 +93,12 @@ global.WATCHDOG_DEV = 0;
 
 global.RESYNC_CONDITION = {"OWN_BLOCKS":20, "K_POW":5};
 
-
 global.REST_BLOCK_SCALE = 1000;
 global.REST_START_COUNT = 1000;
 global.LOAD_TO_BEGIN = 2;
 global.MAX_SIZE_DB = 20;
 
 global.DEBUG_WALLET = 0;
-
-
 
 global.CHECK_GLOBAL_TIME = 1;
 global.AUTO_CORRECT_TIME = 1;
