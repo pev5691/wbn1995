@@ -1,7 +1,7 @@
 global.FORK_MODE = 1; //set to 1 for fork
 global.NETWORK = "WBN-MAIN"; //max 10 chars
 global.START_NETWORK_DATE = 1597952123266; //formula of it value is (new Date(2019, 8, 20, 17, 0, 0, 0))-0;
-global.CONSENSUS_PERIOD_TIME = 2000; //ms
+global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
 //    {"ip":"185.26.121.248","port":50005},   // hostland
