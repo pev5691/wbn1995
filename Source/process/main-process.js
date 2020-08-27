@@ -55,9 +55,8 @@ global.glCurNumFindArr = 0;
 global.ArrReconnect = [];
 global.ArrConnect = [];
 
-var FindList = [{"ip":"185.240.243.182", "port":30000}, {"ip":"t1.teraexplorer.com", "port":30000}, {"ip":"t2.teraexplorer.com",
-    "port":30000}, {"ip":"t4.teraexplorer.com", "port":30000}, {"ip":"212.80.217.199", "port":30000}, {"ip":"teraexplorer.org",
-    "port":30000}, ];
+var FindList = [{"ip":"194.67.221.153", "port":50005}, {"ip":"totoha.wellbeing.su", "port":50005},
+                {"ip":"194.147.78.188", "port":50005}, {"ip":"vdska.wellbeing.su", "port":50005}, ];
 
 if(global.LOCAL_RUN)
 {
