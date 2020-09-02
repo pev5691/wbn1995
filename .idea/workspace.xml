@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24725b49-5593-4a20-9d5d-c240d554974c" name="Default Changelist" comment="Установка времени запуска 1598463131275">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/pev5691.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/pev5691.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="24725b49-5593-4a20-9d5d-c240d554974c" name="Default Changelist" comment="Для трёх нод на одном хостинге">
       <change beforePath="$PROJECT_DIR$/fork-run.js" beforeDir="false" afterPath="$PROJECT_DIR$/fork-run.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,9 +86,16 @@
       <workItem from="1598995343983" duration="10000" />
       <workItem from="1599042072986" duration="1374000" />
       <workItem from="1599048371854" duration="631000" />
-      <workItem from="1599058539961" duration="502000" />
+      <workItem from="1599058539961" duration="578000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Для трёх нод на одном хостинге">
+      <created>1599059130495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599059130495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Запуск форка на трехсекундном интервале" />
     <MESSAGE value="Установка времени запуска 1598463131275" />
-    <option name="LAST_COMMIT_MESSAGE" value="Установка времени запуска 1598463131275" />
+    <MESSAGE value="Для трёх нод на одном хостинге" />
+    <option name="LAST_COMMIT_MESSAGE" value="Для трёх нод на одном хостинге" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="251" key="FileChooserDialogImpl" timestamp="1598993333398">
