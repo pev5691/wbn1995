@@ -22,6 +22,7 @@
     <list default="true" id="24725b49-5593-4a20-9d5d-c240d554974c" name="Default Changelist" comment="Для трёх нод на одном хостинге">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/HTML/JS/wallet-web.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/HTML/JS/wallet-web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/core/html-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/core/html-server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,8 @@
       <workItem from="1599048371854" duration="631000" />
       <workItem from="1599058539961" duration="3538000" />
       <workItem from="1599062302687" duration="248000" />
+      <workItem from="1599075682520" duration="2874000" />
+      <workItem from="1599124289471" duration="113000" />
     </task>
     <task id="LOCAL-00003" summary="Для трёх нод на одном хостинге">
       <created>1599059130495</created>
@@ -143,10 +146,10 @@
     </state>
     <state x="247" y="157" key="Vcs.Push.Dialog.v2/0.0.1280.994@0.0.1280.994" timestamp="1599059208985" />
     <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1598463185554" />
-    <state x="340" y="160" width="915" height="676" key="find.popup" timestamp="1599062346955">
-      <screen x="0" y="0" width="1280" height="994" />
+    <state x="350" y="37" width="942" height="709" key="find.popup" timestamp="1599124333810">
+      <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="340" y="160" width="915" height="676" key="find.popup/0.0.1280.994@0.0.1280.994" timestamp="1599062346955" />
-    <state x="350" y="124" width="942" height="522" key="find.popup/0.0.1318.768@0.0.1318.768" timestamp="1598517665363" />
+    <state x="350" y="37" width="942" height="709" key="find.popup/0.0.1318.768@0.0.1318.768" timestamp="1599124333810" />
   </component>
 </project>

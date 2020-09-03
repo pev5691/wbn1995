@@ -231,7 +231,7 @@ function DappTemplateFile(request,response,StrNum)
         var Data = DApps.Smart.ReadSmart(Num);
         if(Data)
         {
-            var Headers = {'Content-Type':'text/html', "X-Frame-Options":"sameorigin"};
+            var Headers = {'Content-Type':'text/html', "X-Frame-Options":"SAMEORIGIN"};
             var Str = fs.readFileSync("HTML/dapp-frame.html", {encoding:"utf8"});
             Str = Str.replace(/#template-number#/g, Num);
             Str = Str.replace(/.\/tera.ico/g, "/file/" + Data.IconBlockNum + "/" + Data.IconTrNum);
