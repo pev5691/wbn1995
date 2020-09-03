@@ -203,7 +203,7 @@ global.MIN_POWER_POW_TR = 10;
 if(global.MIN_POWER_POW_BL === undefined)
     global.MIN_POWER_POW_BL = 5;
 global.GENERATE_BLOCK_ACCOUNT = 0;
-global.TOTAL_SUPPLY_TERA = 1e9;
+global.TOTAL_SUPPLY_WBN = 1e9;
 
 
 global.TRANSACTION_PROOF_COUNT = 1000 * 1000;
@@ -223,7 +223,7 @@ global.NEW_BLOCK_REWARD1 = 22500000;
 
 
 global.NEW_FORMULA_START = 32000000;
-global.NEW_FORMULA_KTERA = 3;
+global.NEW_FORMULA_KWBN = 3;
 global.NEW_FORMULA_TARGET1 = 43000000;
 global.NEW_FORMULA_TARGET2 = 45000000;
 
@@ -286,7 +286,7 @@ if(global.JINN_MODE)
     global.NEW_ACCOUNT_INCREMENT = 1;
     global.NEW_BLOCK_REWARD1 = 1;
     global.NEW_FORMULA_START = 1;
-    global.NEW_FORMULA_KTERA = 3;
+    global.NEW_FORMULA_KWBN = 3;
     global.NEW_FORMULA_TARGET1 = 0;
     global.NEW_FORMULA_TARGET2 = 1;
 
@@ -339,7 +339,7 @@ else
         global.NEW_ACCOUNT_INCREMENT = 1;
         global.NEW_BLOCK_REWARD1 = 1;
         global.NEW_FORMULA_START = 1;
-        global.NEW_FORMULA_KTERA = 3;
+        global.NEW_FORMULA_KWBN = 3;
         global.NEW_FORMULA_TARGET1 = 0;
         global.NEW_FORMULA_TARGET2 = 1;
 
@@ -396,7 +396,7 @@ else
             global.NEW_ACCOUNT_INCREMENT = 1;
             global.NEW_BLOCK_REWARD1 = 1;
             global.NEW_FORMULA_START = 1;
-            global.NEW_FORMULA_KTERA = 3;
+            global.NEW_FORMULA_KWBN = 3;
             global.NEW_FORMULA_TARGET1 = 0;
             global.NEW_FORMULA_TARGET2 = 1;
 
