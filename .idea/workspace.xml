@@ -19,20 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24725b49-5593-4a20-9d5d-c240d554974c" name="Default Changelist" comment="Для трёх нод на одном хостинге">
+    <list default="true" id="24725b49-5593-4a20-9d5d-c240d554974c" name="Default Changelist" comment="reBranding TERA -&gt;WBN">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/HTML/JS/tx-lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/HTML/JS/tx-lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/HTML/JS/wallet-web.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/HTML/JS/wallet-web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/HTML/dapp-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/Source/HTML/dapp-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/core/db/block-db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/core/db/block-db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/core/db/db-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/core/db/db-file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/core/db/db-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/core/db/db-row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/core/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/core/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/run-nw.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/run-nw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/system/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/system/accounts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/system/adv-mining.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/system/adv-mining.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/system/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/system/file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/system/smart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/system/smart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fork-run.js" beforeDir="false" afterPath="$PROJECT_DIR$/fork-run.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +91,7 @@
       <workItem from="1599062302687" duration="248000" />
       <workItem from="1599075682520" duration="2874000" />
       <workItem from="1599124289471" duration="820000" />
-      <workItem from="1599151989274" duration="1722000" />
+      <workItem from="1599151989274" duration="2115000" />
     </task>
     <task id="LOCAL-00003" summary="Для трёх нод на одном хостинге">
       <created>1599059130495</created>
@@ -125,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599124483068</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reBranding TERA -&gt;WBN">
+      <created>1599172716077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599172716077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +143,8 @@
     <MESSAGE value="Запуск форка на трехсекундном интервале" />
     <MESSAGE value="Установка времени запуска 1598463131275" />
     <MESSAGE value="Для трёх нод на одном хостинге" />
-    <option name="LAST_COMMIT_MESSAGE" value="Для трёх нод на одном хостинге" />
+    <MESSAGE value="reBranding TERA -&gt;WBN" />
+    <option name="LAST_COMMIT_MESSAGE" value="reBranding TERA -&gt;WBN" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="251" key="FileChooserDialogImpl" timestamp="1598993333398">
@@ -159,11 +156,11 @@
     </state>
     <state x="144" y="25" key="SettingsEditor/0.0.1280.994@0.0.1280.994" timestamp="1598993444799" />
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1598467781952" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599124493135">
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599172726960">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="247" y="157" key="Vcs.Push.Dialog.v2/0.0.1280.994@0.0.1280.994" timestamp="1599059208985" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1599124493135" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1599172726960" />
     <state x="350" y="37" width="942" height="709" key="find.popup" timestamp="1599172578119">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
