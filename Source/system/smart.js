@@ -127,7 +127,7 @@ class SmartApp extends require("./dapp")
         if(this.GetMaxNum() + 1 >= 7)
             return;
         
-        this.DBSmartWrite({Num:0, ShortName:"WBN", Name:"WBN", Description:"WBN", BlockNum:0, TokenGenerate:1, Account:0, Category1:0})
+        this.DBSmartWrite({Num:0, ShortName:"WBN", Name:"WBN", Description:"WellBeing Network COIN", BlockNum:0, TokenGenerate:1, Account:0, Category1:0})
         for(var i = 1; i < 8; i++)
             this.DBSmartWrite({Num:i, ShortName:"", Name:"", Description:"", BlockNum:0, TokenGenerate:1, Account:i, Category1:0})
     }
