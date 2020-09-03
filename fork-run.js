@@ -11,7 +11,6 @@
 global.FORK_MODE = 1; //set to 1 for fork
 global.NETWORK = "WBN-MAIN"; //max 10 chars
 global.START_NETWORK_DATE = 1599177700000
-8463131275; //formula of it value is (new Date(2019, 8, 20, 17, 0, 0, 0))-0;
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
@@ -25,14 +24,3 @@ global.FORK_IP_LIST = [
     {"ip":"194.147.78.188","port":50006},   // Vdska 194.147.78.188
     {"ip":"194.147.78.188","port":50007}  // Vdska 194.147.78.188
 ];
-
-/*
-global.FORK_MODE=1;
-global.NETWORK="FORK-MAIN";//10
-global.START_NETWORK_DATE=1590777800000+300*1000;  //(new Date(2018, 6, 1, 12, 0, 0, 0))-0;
-global.CONSENSUS_PERIOD_TIME=1000;//ms
-global.START_PORT_NUMBER=30002;
-global.FORK_IP_LIST=[{"ip":"127.0.0.1","port":30000},{"ip":"127.0.0.1","port":30001}];
-*/
-//    {"ip":"185.26.121.248","port":50005},   // hostland
-//    {"ip":"188.227.85.27","port":50005},    // Server Space
