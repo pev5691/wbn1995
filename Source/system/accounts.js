@@ -1,12 +1,12 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
-*/
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
 "use strict";
 
@@ -241,11 +241,11 @@ class AccountApp extends require("./dapp")
         this.DBAccountsHash.Truncate( - 1)
         this.DBStateTX.Truncate( - 1)
         this.DBRest.Truncate( - 1)
-        this.DBStateWriteInner({Num:0, PubKey:[], Value:{BlockNum:1, SumCOIN:0.95 * TOTAL_SUPPLY_TERA}, Name:"System account"}, 1)
+        this.DBStateWriteInner({Num:0, PubKey:[], Value:{BlockNum:1, SumCOIN:0.95 * TOTAL_SUPPLY_WBN}, Name:"System account"}, 1)
         for(var i = 1; i < 8; i++)
             this.DBStateWriteInner({Num:i, PubKey:[], Value:{BlockNum:1}, Name:""})
         
-        this.DBStateWriteInner({Num:8, PubKey:GetArrFromHex(ARR_PUB_KEY[0]), Value:{BlockNum:1, SumCOIN:0.05 * TOTAL_SUPPLY_TERA},
+        this.DBStateWriteInner({Num:8, PubKey:GetArrFromHex(ARR_PUB_KEY[0]), Value:{BlockNum:1, SumCOIN:0.05 * TOTAL_SUPPLY_WBN},
             Name:"Founder account"})
         this.DBStateWriteInner({Num:9, PubKey:GetArrFromHex(ARR_PUB_KEY[1]), Value:{BlockNum:1, SumCOIN:0}, Name:"Developer account"})
         for(var i = 10; i < BLOCK_PROCESSING_LENGTH2; i++)
@@ -569,14 +569,14 @@ class AccountApp extends require("./dapp")
             {
                 if(Block.BlockNum <= NEW_FORMULA_TARGET1)
                 {
-                    Sum = SysBalance * 43 * 43 / 100 / TOTAL_SUPPLY_TERA
+                    Sum = SysBalance * 43 * 43 / 100 / TOTAL_SUPPLY_WBN
                     
                     var KMult = (NEW_FORMULA_TARGET2 - Block.BlockNum) / (NEW_FORMULA_TARGET2 - NEW_FORMULA_START);
                     Sum = KMult * Sum
                 }
                 else
                 {
-                    Sum = NEW_FORMULA_KTERA * SysBalance / TOTAL_SUPPLY_TERA
+                    Sum = NEW_FORMULA_KWBN * SysBalance / TOTAL_SUPPLY_WBN
                 }
             }
             else
@@ -584,7 +584,7 @@ class AccountApp extends require("./dapp")
                 var Power = GetPowPower(Block.PowHash);
                 if(Block.BlockNum >= NEW_BLOCK_REWARD1)
                     Power = 43
-                Sum = Power * Power * SysBalance / TOTAL_SUPPLY_TERA / 100
+                Sum = Power * Power * SysBalance / TOTAL_SUPPLY_WBN / 100
             }
             
             var OperationNum = 0;

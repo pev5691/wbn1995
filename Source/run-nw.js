@@ -62,7 +62,7 @@ setTimeout(function ()
 
             // Create a tray icon
             let Visible=1;
-            var tray = new nw.Tray({ title: 'TERA', icon: '/HTML/PIC/wallet16.png'});
+            var tray = new nw.Tray({ title: 'WBN', icon: '/HTML/PIC/wallet16.png'});
             tray.on('click',function ()
             {
                 Visible=!Visible;

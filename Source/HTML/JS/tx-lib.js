@@ -1,10 +1,10 @@
 /*
- * @project: TERA
+ * @project: WellBeingNetwork
  * @version: Development (beta)
  * @license: MIT (not for evil)
- * @copyright: Yuriy Ivanov 2017-2019 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram: https://web.telegram.org/#/im?p=@terafoundation
-*/
+ * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
+ * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+ * Web: https://www.facebook.com/pev5691
+ * Telegram:  https://t.me/wellbeingnetwork
+ */
 
