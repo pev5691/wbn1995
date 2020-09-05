@@ -14,13 +14,13 @@ global.START_NETWORK_DATE = 1599177700000
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
-    {"ip":"127.0.0.1","port":50505},        // localhost wbn1
-    {"ip":"127.0.0.1","port":50506},        // localhost wbn2
-    {"ip":"127.0.0.1","port":50507},        // localhost wbn3
-    {"ip":"194.67.221.153","port":50505},   // ihor totoha
-    {"ip":"194.67.221.153","port":50506},   // ihor totoha
-    {"ip":"194.67.221.153","port":50507},   // ihor totoha
-    {"ip":"194.147.78.188","port":50505},   // Vdska 194.147.78.188
-    {"ip":"194.147.78.188","port":50506},   // Vdska 194.147.78.188
-    {"ip":"194.147.78.188","port":50507}  // Vdska 194.147.78.188
+    {"ip":"127.0.0.1","port":50500},        // localhost wbn1
+    {"ip":"127.0.0.1","port":50501},        // localhost wbn2
+    {"ip":"127.0.0.1","port":50502},        // localhost wbn3
+    {"ip":"194.67.221.153","port":50500},   // ihor totoha
+    {"ip":"194.67.221.153","port":50501},   // ihor totoha
+    {"ip":"194.67.221.153","port":50502},   // ihor totoha
+    {"ip":"194.147.78.188","port":50500},   // Vdska 194.147.78.188
+    {"ip":"194.147.78.188","port":50501},   // Vdska 194.147.78.188
+    {"ip":"194.147.78.188","port":50502}  // Vdska 194.147.78.188
 ];
