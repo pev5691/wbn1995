@@ -20,15 +20,15 @@ var StartTimeConnecting = 0;
 var ConnectedCount = 0;
 var NETWORK_NAME = "WBN-MAIN";
 var ServerMap = {};
-var ServerMainMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":50005, "Name":"LOCAL"},
-    "127.0.0.1":{"ip":"127.0.0.1", "port":50006, "Name":"LOCAL"},
-    "127.0.0.1":{"ip":"127.0.0.1", "port":50007, "Name":"LOCAL"},
-    "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50005, "Name":"vdska", "System":1},
-    "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50006, "Name":"wbn1", "System":1},
-    "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50007, "Name":"wbn2", "System":1},
-    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50005, "Name":"totoha", "System":1},
-    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50006, "Name":"wbn3", "System":1},
-    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50007, "Name":"wbn4", "System":1},
+var ServerMainMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":50505, "Name":"LOCAL"},
+    "127.0.0.1":{"ip":"127.0.0.1", "port":50506, "Name":"LOCAL"},
+    "127.0.0.1":{"ip":"127.0.0.1", "port":50507, "Name":"LOCAL"},
+    "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50505, "Name":"vdska", "System":1},
+    "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50506, "Name":"wbn1", "System":1},
+    "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50507, "Name":"wbn2", "System":1},
+    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50505, "Name":"totoha", "System":1},
+    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50506, "Name":"wbn3", "System":1},
+    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50507, "Name":"wbn4", "System":1},
     };
 var ServerTestMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"},
     "dappsgate.com":{"ip":"dappsgate.com", "port":88, "Name":"SUPPORT1", "System":1}, };
