@@ -14,13 +14,13 @@ global.START_NETWORK_DATE = 1599177700000
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [ // Порты те же самые, что и в wallet-web.js переменной NET_WORK_MODE
-//    {"ip":"127.0.0.1","port":34734},        // localhost wbn1
+//    {"ip":"127.0.0.1","port":34374},        // localhost wbn1
 //    {"ip":"127.0.0.1","port":50501},        // localhost wbn2
 //    {"ip":"127.0.0.1","port":50502},        // localhost wbn3
-    {"ip":"194.67.221.153","port":34734},   // ihor totoha
+    {"ip":"194.67.221.153","port":34374},   // ihor totoha
 //    {"ip":"194.67.221.153","port":50501},   // ihor totoha
 //    {"ip":"194.67.221.153","port":50502},   // ihor totoha
-    {"ip":"194.147.78.188","port":34734}   // Vdska 194.147.78.188
+    {"ip":"194.147.78.188","port":34374}   // Vdska 194.147.78.188
 //    {"ip":"194.147.78.188","port":50501},   // Vdska 194.147.78.188
 //    {"ip":"194.147.78.188","port":50502}    // Vdska 194.147.78.188
 ];
