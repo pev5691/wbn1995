@@ -27,7 +27,7 @@ var ServerMainMap = {
     "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":34374, "Name":"vdska", "System":1},
 //    "wbn3.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50501, "Name":"wbn1", "System":1},
 //    "wbn4.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":50502, "Name":"wbn2", "System":1},
-    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":34374, "Name":"totoha", "System":1},
+    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":34374, "Name":"totoha", "System":1}
 //    "wbn1.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50501, "Name":"wbn3", "System":1},
 //    "wbn2.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":50502, "Name":"wbn4", "System":1},
     };
