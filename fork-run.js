@@ -18,7 +18,7 @@ global.FORK_IP_LIST = [
 //    {"ip":"127.0.0.1","port":50501},        // localhost wbn2
 //    {"ip":"127.0.0.1","port":50502},        // localhost wbn3
     {"ip":"194.67.221.153","port":34347},   // ihor totoha
-    {"ip":"194.67.221.153","port":3477},   // ihor totoha
+    {"ip":"194.67.221.153","port":3774},   // ihor totoha
 //    {"ip":"194.67.221.153","port":50502},   // ihor totoha
     {"ip":"194.147.78.188","port":34347}   // Vdska 194.147.78.188
 //    {"ip":"194.147.78.188","port":50501},   // Vdska 194.147.78.188
