@@ -20,7 +20,7 @@ var StartTimeConnecting = 0;
 var ConnectedCount = 0;
 var NETWORK_NAME = "WBN-MAIN";
 var ServerMap = {};
-var ServerMainMap = {   // Порты те же самые, что и в fork-run.js переменной global.FORK_IP_LIST
+var ServerMainMap = {
 //    "127.0.0.1":{"ip":"127.0.0.1", "port":34734, "Name":"LOCAL"},
 //    "127.0.0.1":{"ip":"127.0.0.1", "port":50501, "Name":"LOCAL"},
 //    "127.0.0.1":{"ip":"127.0.0.1", "port":50502, "Name":"LOCAL"},
