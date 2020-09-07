@@ -26,8 +26,8 @@ global.FORK_IP_LIST = [
 ];
 
 /*
-34347   //  admin port
-34374   //  node port
-34734   //  wallet port
-37434   //  jinn port
+34347   //  admin port   HTTP_PORT_NUMBER
+34374   //  node port    NET_WORK_MODE
+34734   //  wallet port  HTTP_HOSTING_PORT
+37434   //  jinn port    JINN_PORT
 */

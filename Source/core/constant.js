@@ -48,7 +48,7 @@ global.JINN_DEBUG_INFO = 1;
 
 
 global.JINN_IP = "";
-global.JINN_PORT = 33000;
+global.JINN_PORT = 37434;
 
 
 global.DEBUG_EXIT_ON_BADS = 0;
@@ -68,14 +68,11 @@ global.EXPERIMENTAL_CODE = 0;
 
 global.HTTP_USE_ZIP = 0;
 
-
 global.MAX_LENGTH_SENDER_MAP = 3000;
 global.DELTA_START_SENDER_MAP = 24;
 global.UNIQUE_IP_MODE = 0;
 
-
 global.NODES_DELTA_CALC_HOUR = 4;
-
 
 global.USE_API_WALLET = 1;
 global.USE_API_V1 = 1;
@@ -105,7 +102,7 @@ global.AUTO_CORRECT_TIME = 1;
 global.DELTA_CURRENT_TIME = 0;
 
 global.NODES_NAME = "";
-global.COMMON_KEY = "";
+global.COMMON_KEY = "WELLBEING";
 global.SERVER_PRIVATE_KEY_HEX = undefined;
 global.USE_NET_FOR_SERVER_ADDRES = 1;
 
@@ -114,8 +111,8 @@ global.STAT_MODE = 0;
 global.MAX_STAT_PERIOD = 500;
 global.WALLET_NAME = "WBN";
 global.WALLET_DESCRIPTION = "";
-global.USE_MINING = 0;
-global.POW_MAX_PERCENT = 50;
+global.USE_MINING = true;
+global.POW_MAX_PERCENT = 5;
 
 
 global.POW_RUN_COUNT = 5000;
@@ -142,7 +139,7 @@ global.CHECK_STOP_CHILD_PROCESS = 100 * 1000;
 global.COUNT_MINING_CPU = 0;
 global.SIZE_MINING_MEMORY = 0;
 
-global.HTTP_HOSTING_PORT = 0;
+global.HTTP_HOSTING_PORT = 34734;
 global.HTTPS_HOSTING_DOMAIN = "";
 global.HTTP_MAX_COUNT_ROWS = 20;
 global.HTTP_ADMIN_PASSWORD = "";
