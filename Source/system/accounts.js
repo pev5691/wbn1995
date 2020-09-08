@@ -248,7 +248,7 @@ class AccountApp extends require("./dapp")
         this.DBStateWriteInner({Num:8, PubKey:GetArrFromHex(ARR_PUB_KEY[0]), Value:{BlockNum:1, SumCOIN:0 * TOTAL_SUPPLY_WBN},
             Name:"Founder account"})
         this.DBStateWriteInner({Num:9, PubKey:GetArrFromHex(ARR_PUB_KEY[1]), Value:{BlockNum:1, SumCOIN:0}, Name:" Developer account"},
-            {Num:10, PubKey:GetArrFromHex(ARR_PUB_KEY[2]), Value:{BlockNum:1, SumCOIN:0}, Name:"Investor No1 account"})
+            {Num:10, PubKey:GetArrFromHex(ARR_PUB_KEY[0]), Value:{BlockNum:1, SumCOIN:0}, Name:"Investor No1 account"})
         for(var i = 11; i < BLOCK_PROCESSING_LENGTH2; i++)
             this.DBStateWriteInner({Num:i, PubKey:GetArrFromHex(ARR_PUB_KEY[i - 8]), Value:{BlockNum:1}, Name:"An other Investor account"})
         
