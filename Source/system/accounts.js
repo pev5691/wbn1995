@@ -242,6 +242,7 @@ class AccountApp extends require("./dapp")
         this.DBStateTX.Truncate( - 1)
         this.DBRest.Truncate( - 1)
         this.DBStateWriteInner({Num:0, PubKey:[], Value:{BlockNum:1, SumCOIN:TOTAL_SUPPLY_WBN}, Name:"System account"}, 1)
+        this.DBStateWriteInner({Num:1, PubKey:[], Value:{BlockNum:1, SumCOIN:TOTAL_SUPPLY_WBN / 500000}, Name:"Fond account"}, 1)
         for(var i = 1; i < 8; i++)
             this.DBStateWriteInner({Num:i, PubKey:[], Value:{BlockNum:1}, Name:"What this?"})
         
