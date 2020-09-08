@@ -10,7 +10,7 @@
 
 global.FORK_MODE = 1; //set to 1 for fork
 global.NETWORK = "WBN-MAIN"; //max 10 chars
-global.START_NETWORK_DATE = 1599177700000
+global.START_NETWORK_DATE = 1599557777777
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
