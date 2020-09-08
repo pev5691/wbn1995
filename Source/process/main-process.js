@@ -55,12 +55,12 @@ global.glCurNumFindArr = 0;
 global.ArrReconnect = [];
 global.ArrConnect = [];
 
-var FindList = [{"ip":"194.67.221.153", "port":50005}, {"ip":"totoha.wellbeing.su", "port":50005},
-                {"ip":"194.147.78.188", "port":50005}, {"ip":"vdska.wellbeing.su", "port":50005}, ];
+var FindList = [{"ip":"194.67.221.153", "port":34347}, {"ip":"totoha.wellbeing.su", "port":34347},
+                {"ip":"194.147.78.188", "port":34347}, {"ip":"vdska.wellbeing.su", "port":34347}, ];
 
 if(global.LOCAL_RUN)
 {
-    FindList = [{"ip":"127.0.0.1", "port":50001}, {"ip":"127.0.0.1", "port":50002}];
+    FindList = [{"ip":"127.0.0.1", "port":34374}, {"ip":"127.0.0.1", "port":3747}];
 }
 else
     if(global.TEST_NETWORK)

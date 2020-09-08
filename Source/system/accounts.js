@@ -620,7 +620,7 @@ class AccountApp extends require("./dapp")
                 if(!ISZERO(CoinDevelop))
                 {
                     OperationNum++
-                    this.SendMoneyTR(Block, 0, 9, CoinDevelop, Block.BlockNum, 0xFFFF, "", "Developers support", 1, 0, OperationNum)
+                    this.SendMoneyTR(Block, 0, 10, CoinDevelop, Block.BlockNum, 0xFFFF, "", "Developers support", 1, 0, OperationNum)
                 }
             }
         }
