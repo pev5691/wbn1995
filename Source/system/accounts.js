@@ -241,15 +241,15 @@ class AccountApp extends require("./dapp")
         this.DBAccountsHash.Truncate( - 1)
         this.DBStateTX.Truncate( - 1)
         this.DBRest.Truncate( - 1)
-        this.DBStateWriteInner({Num:0, PubKey:[], Value:{BlockNum:1, SumCOIN:0.95 * TOTAL_SUPPLY_WBN}, Name:"System account"}, 1)
+        this.DBStateWriteInner({Num:0, PubKey:[], Value:{BlockNum:1, TOTAL_SUPPLY_WBN}, Name:"System account"}, 1)
         for(var i = 1; i < 8; i++)
-            this.DBStateWriteInner({Num:i, PubKey:[], Value:{BlockNum:1}, Name:""})
+            this.DBStateWriteInner({Num:i, PubKey:[], Value:{BlockNum:1}, Name:"What this?"})
         
         this.DBStateWriteInner({Num:8, PubKey:GetArrFromHex(ARR_PUB_KEY[0]), Value:{BlockNum:1, SumCOIN:0.05 * TOTAL_SUPPLY_WBN},
             Name:"Founder account"})
-        this.DBStateWriteInner({Num:9, PubKey:GetArrFromHex(ARR_PUB_KEY[1]), Value:{BlockNum:1, SumCOIN:0}, Name:"Developer account"})
+        this.DBStateWriteInner({Num:9, PubKey:GetArrFromHex(ARR_PUB_KEY[1]), Value:{BlockNum:1, SumCOIN:0}, Name:" Developer account"})
         for(var i = 10; i < BLOCK_PROCESSING_LENGTH2; i++)
-            this.DBStateWriteInner({Num:i, PubKey:GetArrFromHex(ARR_PUB_KEY[i - 8]), Value:{BlockNum:1}, Name:""})
+            this.DBStateWriteInner({Num:i, PubKey:GetArrFromHex(ARR_PUB_KEY[i - 8]), Value:{BlockNum:1}, Name:"Investor account"})
         
         this.DBStateTX.Write({Num:0, BlockNum:0})
         
