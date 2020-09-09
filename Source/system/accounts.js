@@ -247,10 +247,13 @@ class AccountApp extends require("./dapp")
         
         this.DBStateWriteInner({Num:8, PubKey:GetArrFromHex(ARR_PUB_KEY[0]), Value:{BlockNum:1, SumCOIN:0}, Name:" Founder account"})
         this.DBStateWriteInner({Num:9, PubKey:GetArrFromHex(ARR_PUB_KEY[1]), Value:{BlockNum:1, SumCOIN:0}, Name:" Developer account"})
-        this.DBStateWriteInner({Num:10, PubKey:GetArrFromHex(ARR_PUB_KEY[2]), Value:{BlockNum:1, SumCOIN:0}, Name:""})
-        this.DBStateWriteInner({Num:11, PubKey:GetArrFromHex(ARR_PUB_KEY[3]), Value:{BlockNum:1, SumCOIN:0}, Name:""})
-            for(var i = 12; i < BLOCK_PROCESSING_LENGTH2; i++)
-        this.DBStateWriteInner({Num:i, PubKey:GetArrFromHex(ARR_PUB_KEY[i - 8]), Value:{BlockNum:1}, Name:""})
+        this.DBStateWriteInner({Num:10, PubKey:GetArrFromHex(ARR_PUB_KEY[2]), Value:{BlockNum:1, SumCOIN:0}, Name:"Investor Number One"})
+        this.DBStateWriteInner({Num:11, PubKey:GetArrFromHex(ARR_PUB_KEY[3]), Value:{BlockNum:1, SumCOIN:0}, Name:"Investor Number Two"})
+        this.DBStateWriteInner({Num:11, PubKey:GetArrFromHex(ARR_PUB_KEY[4]), Value:{BlockNum:1, SumCOIN:0}, Name:"Fond Bounties First"})
+        this.DBStateWriteInner({Num:11, PubKey:GetArrFromHex(ARR_PUB_KEY[5]), Value:{BlockNum:1, SumCOIN:0}, Name:"Fond Bounties Second"})
+        this.DBStateWriteInner({Num:11, PubKey:GetArrFromHex(ARR_PUB_KEY[6]), Value:{BlockNum:1, SumCOIN:0}, Name:"Fond Bounties Thrid"})
+//            for(var i = 12; i < BLOCK_PROCESSING_LENGTH2; i++)
+//        this.DBStateWriteInner({Num:i, PubKey:GetArrFromHex(ARR_PUB_KEY[i - 8]), Value:{BlockNum:1}, Name:""})
         
         this.DBStateTX.Write({Num:0, BlockNum:0})
         
@@ -644,7 +647,11 @@ class AccountApp extends require("./dapp")
                 }
                 {
                     OperationNum++
-                    this.SendMoneyTR(Block, 0, 14, CoinDevelop, Block.BlockNum, 0xFFFF, "", "Fond eshe kakoi", 1, 0, OperationNum)
+                    this.SendMoneyTR(Block, 0, 14, CoinDevelop, Block.BlockNum, 0xFFFF, "", "Fond No four", 1, 0, OperationNum)
+                }
+                {
+                    OperationNum++
+                    this.SendMoneyTR(Block, 0, 15, CoinDevelop, Block.BlockNum, 0xFFFF, "", "Fond number five", 1, 0, OperationNum)
                 }
             }
         }
