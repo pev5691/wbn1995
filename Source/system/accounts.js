@@ -243,7 +243,7 @@ class AccountApp extends require("./dapp")
         this.DBRest.Truncate( - 1)
         this.DBStateWriteInner({Num:0, PubKey:[], Value:{BlockNum:1, SumCOIN:TOTAL_SUPPLY_WBN}, Name:"System account"}, 1)
         for(var i = 1; i < 8; i++)
-            this.DBStateWriteInner({Num:i, PubKey:[], Value:{BlockNum:1}, Name:"Destroy you money!"})
+            this.DBStateWriteInner({Num:i, PubKey:[], Value:{BlockNum:1}, Name:"Dont send money on this wallet!!"})
         
         this.DBStateWriteInner({Num:8, PubKey:GetArrFromHex(ARR_PUB_KEY[0]), Value:{BlockNum:1, SumCOIN:0}, Name:" Founder account"})
         this.DBStateWriteInner({Num:9, PubKey:GetArrFromHex(ARR_PUB_KEY[1]), Value:{BlockNum:1, SumCOIN:0}, Name:" Developer account"})
