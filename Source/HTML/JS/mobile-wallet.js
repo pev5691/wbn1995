@@ -1461,7 +1461,7 @@ LangMap["简体中文"] = {"WBN WALLET":"WBN 钱包", "Generate key":"生成私�
     "RECONNECT":"重连", "DApps":"DApps", "ID":"ID", "Amount":"余额", "Cur":"币种", "Name":"名称", "PubKey":"公钥", "Operation":"操作次数", "Smart":"DApp",
     "Block Num":"区块编号", "Num":"编号", "Date":"日期", "Data Hash":"数据哈希", "PowHash":"Pow哈希", "Block Hash":"区块哈希", "Bytes":"字节", "Pow":"Pow",
     "Miner":"矿工", "(secret)":"(机密)", "Show":"显示", "WBN":"WBN", "Blockchain height:":"区块高度:", "Current create:":"最近区块:", "Protocol ver:":"协议版本:",
-    "Token generate":"生成代币", "ACCOUNTS":"账号", "DAPPS":"DAPPS", "EXPLORER":"浏览器", "ATTENTION: Before using the wallet, save the private key.":"注意: 使用钱包前，务必保存好私钥。",
+    "Token generate":"生成代币", "YOUR ASSETS":"账号", "DAPPS":"DAPPS", "EXPLORER":"浏览器", "ATTENTION: Before using the wallet, save the private key.":"注意: 使用钱包前，务必保存好私钥。",
     "Web-site":"官网", "Bitcointalk":"创世贴", "Twitter":"推特", "Telegram":"电报", "Discord":"Discord", "QQchat":"QQ群", "Buy/sell/mine WBN":"WBN 交易/挖矿",
     "+ CREATE NEW":"+ 新建", "Confirm Transaction":"确认交易", "CREATE DAPPS":"创建DAPPS", "Set pass":"设置密码", "Unlock":"解锁", "Entrance to sub-wallet":"进入子钱包",
     "Public name":"名称", "Currency":"币种", "Pay to:":"收款:", "Amount:":"金额:", "Description:":"描述:", "Welcome to the well-being management system":"欢迎使用WBN钱包",
