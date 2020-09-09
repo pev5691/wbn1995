@@ -12,7 +12,7 @@ global.FORK_MODE = 1; //set to 1 for fork
 global.NETWORK = "WBN-MAIN"; //max 10 chars
 // global.START_NETWORK_DATE = 1599551034777   // Сутки - 86400000 миллисекунд
 // global.START_NETWORK_DATE = 1599551515777   // Час - 3600000 милисек
-global.START_NETWORK_DATE = 1599557915777      // Минута - 60000 мс
+global.START_NETWORK_DATE = 1599556915777      // Минута - 60000 мс
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
