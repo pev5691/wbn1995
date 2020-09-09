@@ -1,6 +1,6 @@
-<svg width="125" height="30" version="1.1" viewBox="0 0 33.073 7.9375" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="125" height="30" version="1.1" viewBox="0 0 33.073 7.9375" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <radialGradient id="radialGradient890" cx="75" cy="324.71" r="60.707" gradientTransform="matrix(1.1997 0 0 1.0495 -14.424 -16.563)" gradientUnits="userSpaceOnUse">
+  <radialGradient id="radialGradient890" cx="75" cy="324.71" r="60.707" gradientTransform="matrix(1.1997,0,0,1.0495,-14.424,-16.563)" gradientUnits="userSpaceOnUse">
    <stop offset="0"/>
    <stop stop-opacity="0" offset="1"/>
   </radialGradient>
@@ -19,17 +19,15 @@
    <feGaussianBlur stdDeviation="0.34630687"/>
   </filter>
  </defs>
- <g transform="translate(0 -289.06)">
-  <g transform="matrix(.058809 0 0 .058809 .032575 273.94)">
-   <path d="m21.567 387.31 17.996-17.996h17.996l63.585-62.385 26.394 26.394-26.394 26.394-73.183-70.783 27.593-27.593 27.593 27.593-71.983 71.983-27.593-27.593 26.394-26.394 63.585 62.385h17.996l17.996 17.996" fill="url(#radialGradient890)" filter="url(#filter2474)" stroke="url(#radialGradient936)" stroke-width="1.1997px"/>
-   <text x="21" y="339.31247" fill="#000000" font-family="'Ubuntu Condensed'" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="21" y="376.61215"/></text>
-   <ellipse cx="75.25" cy="333.06" rx="29.5" ry="30" fill="url(#radialGradient1559)"/>
-  </g>
-  <text x="-5.7040563" y="290.38428" fill="#000000" font-family="'Ubuntu Condensed'" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="-5.7040563" y="300.25314" stroke-width=".26458"/></text>
-  <g transform="matrix(.21801 0 0 .21801 5.7909 208.65)" fill="#ffffff" filter="url(#filter2466)" font-family="sans-serif" letter-spacing="0px" stroke-width="1.0018" word-spacing="0px">
-   <text transform="scale(1.1197 .8931)" x="11.464427" y="449.55017" font-size="44.788px" style="line-height:1.25" xml:space="preserve"><tspan x="11.464427" y="449.55017" fill="#ffffff" font-family="Ubuntu" stroke-width="1.0018">W</tspan></text>
-   <text transform="scale(1.1654 .85808)" x="50.054737" y="467.5853" font-size="46.616px" style="line-height:1.25" xml:space="preserve"><tspan x="50.054737" y="467.5853" fill="#ffffff" font-family="Ubuntu" stroke-width="1.0018">B</tspan></text>
-   <text transform="scale(1.141 .87646)" x="79.814842" y="458.08887" font-size="45.638px" style="line-height:1.25" xml:space="preserve"><tspan x="79.814842" y="458.08887" fill="#ffffff" font-family="Ubuntu" stroke-width="1.0018">N</tspan></text>
-  </g>
+ <g transform="matrix(.058809 0 0 .058809 .032575 -15.12)">
+  <path d="m21.567 387.31 17.996-17.996h17.996l63.585-62.385 26.394 26.394-26.394 26.394-73.183-70.783 27.593-27.593 27.593 27.593-71.983 71.983-27.593-27.593 26.394-26.394 63.585 62.385h17.996l17.996 17.996" fill="url(#radialGradient890)" filter="url(#filter2474)" stroke="url(#radialGradient936)" stroke-width="1.1997px"/>
+  <text x="21" y="339.31247" fill="#000000" font-family="'Ubuntu Condensed'" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="21" y="376.61215"/></text>
+  <ellipse cx="75.25" cy="333.06" rx="29.5" ry="30" fill="url(#radialGradient1559)"/>
+ </g>
+ <text x="-5.7040563" y="1.3242774" fill="#000000" font-family="'Ubuntu Condensed'" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="-5.7040563" y="11.193143" stroke-width=".26458"/></text>
+ <g transform="matrix(.21801 0 0 .21801 5.7909 -80.41)" fill="#ffffff" fill-opacity=".98529" filter="url(#filter2466)" font-family="sans-serif" letter-spacing="0px" stroke-width="1.0018" word-spacing="0px">
+  <text transform="scale(1.1197 .8931)" x="11.464427" y="449.55017" font-size="44.788px" style="line-height:1.25" xml:space="preserve"><tspan x="11.464427" y="449.55017" fill="#ffffff" fill-opacity=".98529" font-family="Ubuntu" stroke-width="1.0018">W</tspan></text>
+  <text transform="scale(1.1654 .85808)" x="50.054737" y="467.5853" font-size="46.616px" style="line-height:1.25" xml:space="preserve"><tspan x="50.054737" y="467.5853" fill="#ffffff" fill-opacity=".98529" font-family="Ubuntu" stroke-width="1.0018">B</tspan></text>
+  <text transform="scale(1.141 .87646)" x="79.814842" y="458.08887" font-size="45.638px" style="line-height:1.25" xml:space="preserve"><tspan x="79.814842" y="458.08887" fill="#ffffff" fill-opacity=".98529" font-family="Ubuntu" stroke-width="1.0018">N</tspan></text>
  </g>
 </svg>
