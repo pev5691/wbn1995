@@ -1471,7 +1471,7 @@ LangMap["简体中文"] = {"WBN WALLET":"WBN 钱包", "Generate key":"生成私�
     "From:":"付款:", "Set a password for protect entry":"设置密码保护钱包", "Enter password to unlock wallet":"输入密码解锁钱包", "From ID:":"付款ID:",
     "Pay to ID:":"收款ID:", "Account":"账号", "Owner":"拥有者", "Block num":"区块编号", "Private key (secret)":"私钥 (机密)", "Load key":"载入私钥",
     "Create your first account and start using WBN":"创建你的第一个账号，开启WBN之旅", "0 Accounts":"0 账号", "OWNER: {Item.Owner}":"拥有者: {Item.Owner}",
-    "More info":"详情", "Public key":"公钥", "WBN Wallet Guide...":"WBN钱包创建指南", "==HELP-LINK==":"https://terafoundation.org/files/Tera-Wallet-cn.pdf",
+    "More info":"详情", "Public key":"公钥", "Guide to managing your personal account in the well-Being system":"WBN钱包创建指南", "==HELP-LINK==":"https://terafoundation.org/files/Tera-Wallet-cn.pdf",
 };
 LangMap["한글"] = {"WBN WALLET":"WBN 지갑", "Generate key":"개인 키 생성", "OK":"OK", "Cancel":"취소", "Edit":"편집", "Save key":"개인 키 저장",
     "+ CREATE A NEW ACCOUNT":"+ 새 계정 만들기", "Create account":"계정 만들기", "Send":"발송", "CONFIRM":"확인", "Accounts":"계정", "Account(s)":"계정",
