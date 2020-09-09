@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24725b49-5593-4a20-9d5d-c240d554974c" name="Default Changelist" comment="Передвижка времени старта на сутки&#10;1599551034777 + 86400000 = 1599637434777">
+    <list default="true" id="24725b49-5593-4a20-9d5d-c240d554974c" name="Default Changelist" comment="Передвижка времени старта на сутки&#10;1599551034777 &#10;        86400&#10;1599551515177">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fork-run.js" beforeDir="false" afterPath="$PROJECT_DIR$/fork-run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/system/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Source/system/accounts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,21 +78,7 @@
       <workItem from="1599075682520" duration="2874000" />
       <workItem from="1599124289471" duration="820000" />
       <workItem from="1599151989274" duration="13209000" />
-      <workItem from="1599405321519" duration="45217000" />
-    </task>
-    <task id="LOCAL-00017" summary="now kill 127.0.0.1">
-      <created>1599375192596</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1599375192596</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Казус vdska:50000">
-      <created>1599405913826</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1599405913826</updated>
+      <workItem from="1599405321519" duration="46367000" />
     </task>
     <task id="LOCAL-00019" summary="Казус vdska:50000">
       <created>1599461236514</created>
@@ -423,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599628503211</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Передвижка времени старта на сутки&#10;1599551034777 &#10;        86400&#10;1599551515177">
+      <created>1599628712666</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1599628712666</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Передвижка времени старта на сутки&#10;1599551034777 &#10;        86400&#10;1599551515177">
+      <created>1599628727907</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1599628727909</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +466,8 @@
     <MESSAGE value="Изучение первичных эккаунтов" />
     <MESSAGE value="Передвижка времени старта на сутки" />
     <MESSAGE value="Передвижка времени старта на сутки&#10;1599551034777 + 86400000 = 1599637434777" />
-    <option name="LAST_COMMIT_MESSAGE" value="Передвижка времени старта на сутки&#10;1599551034777 + 86400000 = 1599637434777" />
+    <MESSAGE value="Передвижка времени старта на сутки&#10;1599551034777 &#10;        86400&#10;1599551515177" />
+    <option name="LAST_COMMIT_MESSAGE" value="Передвижка времени старта на сутки&#10;1599551034777 &#10;        86400&#10;1599551515177" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="251" key="FileChooserDialogImpl" timestamp="1598993333398">
@@ -478,15 +479,15 @@
     </state>
     <state x="144" y="25" key="SettingsEditor/0.0.1280.994@0.0.1280.994" timestamp="1598993444799" />
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1598467781952" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599628514648">
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599628736083">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="247" y="157" key="Vcs.Push.Dialog.v2/0.0.1280.994@0.0.1280.994" timestamp="1599059208985" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1599628514648" />
-    <state x="172" y="37" width="1120" height="709" key="find.popup" timestamp="1599589707453">
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1599628736083" />
+    <state x="172" y="37" width="1120" height="709" key="find.popup" timestamp="1599629595389">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="340" y="160" width="915" height="676" key="find.popup/0.0.1280.994@0.0.1280.994" timestamp="1599062346955" />
-    <state x="172" y="37" width="1120" height="709" key="find.popup/0.0.1318.768@0.0.1318.768" timestamp="1599589707453" />
+    <state x="172" y="37" width="1120" height="709" key="find.popup/0.0.1318.768@0.0.1318.768" timestamp="1599629595389" />
   </component>
 </project>
