@@ -1431,7 +1431,7 @@ function OpenHelp()
 
 var LangMap = {};
 LangMap["ENG"] = {};
-LangMap["RUS"] = {"WBN WALLET":"WBN КОШЕЛЕК", "Generate key":"Сгенерировать ключ", "OK":"OK", "Cancel":"Отмена", "Edit":"Редактирование",
+LangMap["RUS"] = {2020 WellBeing Network":"2020 криптосеть Благополучие", "WBN WALLET":"WBN КОШЕЛЕК", "Generate key":"Сгенерировать ключ", "OK":"OK", "Cancel":"Отмена", "Edit":"Редактирование",
     "Save key":"Сохран.", "+ CREATE A NEW ACCOUNT":"+ СОЗДАТЬ НОВЫЙ СЧЕТ", "Create account":"Создать счет", "Send":"Отправить",
     "CONFIRM":"Подтвердить", "Accounts":"Твои активы", "Account(s)":"Счет(а,ов)", "Blocks and Tx":"Блоки и Транзакции", "Counters":"Показатели",
     "Open DApp":"Открыть", "Back":"Назад", "Delete":"Удалить", "Save to book":"Сохранить в книгу", "Choose":"Выбрать", "RECONNECT":"КОННЕКТ",
