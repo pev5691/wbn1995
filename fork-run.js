@@ -4,15 +4,17 @@
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2020 [progr76@gmail.com]
  * @copypaste: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
- * Web: https://www.facebook.com/pev5691
+ * Facebook: https://www.facebook.com/pev5691
  * Telegram:  https://t.me/wellbeingnetwork
+ * Github: https://github.com/pev5691/wbn1995
+ * Discord: https://discord.gg/t9V9uj
  */
 
 global.FORK_MODE = 1; //set to 1 for fork
 global.NETWORK = "WBN-MAIN"; //max 10 chars
-// global.START_NETWORK_DATE = 1599551034777   // Сутки - 86400000 миллисекунд
+global.START_NETWORK_DATE = 1599717777777      // Сутки - 86400000 миллисекунд
 // global.START_NETWORK_DATE = 1599551515777   // Час - 3600000 милисек
-global.START_NETWORK_DATE = 1599559915777      // Минута - 60000 мс
+// global.START_NETWORK_DATE = 1599559915777   // Минута - 60000 мс
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
