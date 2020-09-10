@@ -1431,7 +1431,7 @@ function OpenHelp()
 
 var LangMap = {};
 LangMap["ENG"] = {};
-LangMap["RUS"] = {2020 WellBeing Network":"2020 криптосеть Благополучие", "WBN WALLET":"WBN КОШЕЛЕК", "Generate key":"Сгенерировать ключ", "OK":"OK", "Cancel":"Отмена", "Edit":"Редактирование",
+LangMap["RUS"] = {"2020 WellBeing Network":"2020 криптосеть Благополучие", "WBN WALLET":"WBN КОШЕЛЕК", "Generate key":"Сгенерировать ключ", "OK":"OK", "Cancel":"Отмена", "Edit":"Редактирование",
     "Save key":"Сохран.", "+ CREATE A NEW ACCOUNT":"+ СОЗДАТЬ НОВЫЙ СЧЕТ", "Create account":"Создать счет", "Send":"Отправить",
     "CONFIRM":"Подтвердить", "Accounts":"Твои активы", "Account(s)":"Счет(а,ов)", "Blocks and Tx":"Блоки и Транзакции", "Counters":"Показатели",
     "Open DApp":"Открыть", "Back":"Назад", "Delete":"Удалить", "Save to book":"Сохранить в книгу", "Choose":"Выбрать", "RECONNECT":"КОННЕКТ",
@@ -1455,7 +1455,7 @@ LangMap["RUS"] = {2020 WellBeing Network":"2020 криптосеть Благо�
     "Enter number of dapp":"Введите номер Dapp", "Enter the dapps number that will be added to your account. Attention make sure that you trust this dapp, otherwise you may lose all funds in this account.":"Введите номер Dapp, который будет добавлен в ваш аккаунт. Внимание убедитесь, что Вы доверяете ему, в противном случае вы можете потерять все средства на этом счете.",
     "Sending Tx":"Отправка транзакции", "Wallet ver:":"Версия:", "Guide to managing your personal account in the well-Being system":"Руководство по управлению личным кабинетом системы Благополучие", "==HELP-LINK==":"https://medium.com/@evkara777/tera-%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA-%D0%B2%D0%B8%D0%B4%D1%8B-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D1%87%D0%B5%D1%82%D0%B0-6402531ecc11",
 };
-LangMap["简体中文"] = {"WBN WALLET":"WBN 钱包", "Generate key":"生成私钥", "OK":"OK", "Cancel":"取消", "Edit":"编辑", "Save key":"保存私钥",
+LangMap["简体中文"] = {"2020 WellBeing Network":"2020 криптосеть Благополучие", "WBN WALLET":"WBN 钱包", "Generate key":"生成私钥", "OK":"OK", "Cancel":"取消", "Edit":"编辑", "Save key":"保存私钥",
     "+ CREATE A NEW ACCOUNT":"+ 新建账号", "Create account":"创建账号", "Send":"发送", "SEND":"转账", "CONFIRM":"确认", "Accounts":"账号", "Account(s)":"账号",
     "Blocks and Tx":"区块和交易", "Counters":"状态统计", "Open DApp":"打开DApp", "Back":"返回", "Delete":"删除", "Save to book":"保存到地址本", "Choose":"选择",
     "RECONNECT":"重连", "DApps":"DApps", "ID":"ID", "Amount":"余额", "Cur":"币种", "Name":"名称", "PubKey":"公钥", "Operation":"操作次数", "Smart":"DApp",
@@ -1473,7 +1473,7 @@ LangMap["简体中文"] = {"WBN WALLET":"WBN 钱包", "Generate key":"生成私�
     "Create your first account and start using WBN":"创建你的第一个账号，开启WBN之旅", "0 Accounts":"0 账号", "OWNER: {Item.Owner}":"拥有者: {Item.Owner}",
     "More info":"详情", "Public key":"公钥", "Guide to managing your personal account in the well-Being system":"WBN钱包创建指南", "==HELP-LINK==":"https://terafoundation.org/files/Tera-Wallet-cn.pdf",
 };
-LangMap["한글"] = {"WBN WALLET":"WBN 지갑", "Generate key":"개인 키 생성", "OK":"OK", "Cancel":"취소", "Edit":"편집", "Save key":"개인 키 저장",
+LangMap["한글"] = {"2020 WellBeing Network":"2020 криптосеть Благополучие", "WBN WALLET":"WBN 지갑", "Generate key":"개인 키 생성", "OK":"OK", "Cancel":"취소", "Edit":"편집", "Save key":"개인 키 저장",
     "+ CREATE A NEW ACCOUNT":"+ 새 계정 만들기", "Create account":"계정 만들기", "Send":"발송", "CONFIRM":"확인", "Accounts":"계정", "Account(s)":"계정",
     "Blocks & Tx":"블록 & 교역 번호", "Counters":"컨디션 통계", "Open DApp":" DApp을 열기", "Back":"되돌아가기", "Delete":"삭제", "Save to book":"저장",
     "Choose":"선택", "RECONNECT":"다시 연결", "DApps":"DApps", "ID":"ID", "Amount":"잔금", "Cur":"화폐", "Name":"이름", "PubKey":"공공키", "Operation":"조작 횟수",
