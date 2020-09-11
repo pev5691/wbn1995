@@ -1425,7 +1425,7 @@ function OpenHelp()
     var Map = LangMap[$("idLang").value];
     var Link = Map["==HELP-LINK=="];
     if(!Link)
-        Link = "https://medium.com/@evkara777/tera-cryptocurrency-wallet-types-account-creation-97735abad783";
+        Link = "https://docs.google.com/document/d/1xKRV_nlKGN37z_fdT35Kv3XSMOy_IvMat_swMC0AZZY/edit?usp=sharing";
     OpenWindow(Link);
 }
 
