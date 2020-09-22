@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="540"
+   height="250"
+   viewBox="0 0 540 250.00001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="slaid1.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="347.49851"
+     inkscape:cy="164.59806"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1318"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-872.51965)">
+    <rect
+       style="opacity:1;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.35444751;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect831"
+       width="539.55878"
+       height="249.49994"
+       x="-0.12957287"
+       y="2.0317268"
+       transform="translate(0,872.51965)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.45140457px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.63910639"
+       x="18.324648"
+       y="36.51923"
+       id="text836"
+       transform="scale(0.90762146,1.1017809)"><tspan
+         sodipodi:role="line"
+         id="tspan834"
+         x="18.324648"
+         y="36.51923"
+         style="font-weight:bold;font-size:17.04283714px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63910639;stroke-opacity:1">Задача этого смарт-контракта</tspan><tspan
+         sodipodi:role="line"
+         x="18.324648"
+         y="62.083485"
+         style="font-size:17.04283714px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63910639;stroke-opacity:1"
+         id="tspan880">Данный смарт-контракт создан с целью привлечения людей </tspan><tspan
+         sodipodi:role="line"
+         x="18.324648"
+         y="87.647743"
+         id="tspan846"
+         style="font-size:17.04283714px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63910639;stroke-opacity:1">к участнию для деятельности в проекте &quot;Благополучие&quot;, </tspan><tspan
+         sodipodi:role="line"
+         x="18.324648"
+         y="113.212"
+         style="font-size:17.04283714px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63910639;stroke-opacity:1"
+         id="tspan916">соответствует техническим условиям по безопасности в</tspan><tspan
+         sodipodi:role="line"
+         x="18.324648"
+         y="138.77625"
+         id="tspan848"
+         style="font-size:17.04283714px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63910639;stroke-opacity:1">защите персональных данных, и отвечает за автоматизацию</tspan><tspan
+         sodipodi:role="line"
+         x="18.324648"
+         y="164.34052"
+         style="font-size:17.04283714px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63910639;stroke-opacity:1"
+         id="tspan874">процесса начислений и выдачи активов, являющихся ему</tspan><tspan
+         sodipodi:role="line"
+         x="18.324648"
+         y="189.90477"
+         style="font-size:17.04283714px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63910639;stroke-opacity:1"
+         id="tspan908">подконтрольных, и им управляемых.</tspan></text>
+  </g>
+</svg>

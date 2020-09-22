@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="540"
+   height="250"
+   viewBox="0 0 540 250.00001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="slaid5.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1681">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop1677" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1"
+         id="stop1679" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1576">
+      <stop
+         style="stop-color:#373674;stop-opacity:1;"
+         offset="0"
+         id="stop1572" />
+      <stop
+         style="stop-color:#373674;stop-opacity:0;"
+         offset="1"
+         id="stop1574" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient886"
+       id="radialGradient890"
+       cx="75"
+       cy="324.70892"
+       fx="75"
+       fy="324.70892"
+       r="60.707108"
+       gradientTransform="matrix(1.1997157,0,0,1.0494515,-14.424306,-16.563115)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient886">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop882" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop884" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient930"
+       id="radialGradient936"
+       cx="75.554367"
+       cy="324.11533"
+       fx="75.554367"
+       fy="324.11533"
+       r="72.831268"
+       gradientTransform="matrix(1,0,0,0.87354405,0,40.986312)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient930"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop926" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop928" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2474"
+       x="-0.01125"
+       width="1.0225"
+       y="-0.012857143"
+       height="1.0257143">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.67484008"
+         id="feGaussianBlur2476" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient923"
+       id="radialGradient1559"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5171392,-0.00829052,0.00847471,1.5508476,-41.737335,-182.84279)"
+       cx="75.250008"
+       cy="333.06247"
+       fx="75.250008"
+       fy="333.06247"
+       r="29.5" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient923">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0"
+         id="stop919" />
+      <stop
+         style="stop-color:#ffff00;stop-opacity:0;"
+         offset="1"
+         id="stop921" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1576"
+       id="radialGradient1580"
+       cx="272.25644"
+       cy="127.26646"
+       fx="272.25644"
+       fy="127.26646"
+       r="273.24628"
+       gradientTransform="matrix(1,0,0,0.46765246,-139.92388,75.60785)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1681"
+       id="linearGradient1683"
+       x1="473.10681"
+       y1="965.54907"
+       x2="214.09909"
+       y2="966.52612"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient923"
+       id="radialGradient1687"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.46765246,140.45181,82.898209)"
+       cx="272.25644"
+       cy="127.26646"
+       fx="272.25644"
+       fy="127.26646"
+       r="273.24628" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="220.1037"
+     inkscape:cy="164.59806"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1318"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="opacity:1;fill:url(#radialGradient1580);fill-opacity:1;stroke:none;stroke-width:0.34599999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1388"
+       width="546.49255"
+       height="255.56859"
+       x="-140.91373"
+       y="7.3400335" />
+    <rect
+       y="14.630393"
+       x="139.46196"
+       height="255.56859"
+       width="546.49255"
+       id="rect1685"
+       style="opacity:1;fill:url(#radialGradient1687);fill-opacity:1;stroke:none;stroke-width:0.34599999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-872.51965)">
+    <g
+       id="g872">
+      <rect
+         transform="translate(0,872.51965)"
+         y="-2.538137"
+         x="-1.0101526"
+         height="257.5889"
+         width="551.54333"
+         id="rect857"
+         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.01258361;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         transform="scale(0.96722153,1.0338893)"
+         id="text836"
+         y="908.68097"
+         x="550.44464"
+         style="font-style:normal;font-weight:normal;font-size:21.40336418px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:url(#linearGradient1683);fill-opacity:1;stroke:none;stroke-width:0.66885513;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan1642"
+           style="font-size:17.83613586px;text-align:end;text-anchor:end;fill:url(#linearGradient1683);fill-opacity:1;stroke:none;stroke-width:0.66885513;stroke-opacity:1"
+           y="908.68097"
+           x="550.44464"
+           sodipodi:role="line">Подарочный пай участнику</tspan><tspan
+           id="tspan1647"
+           style="font-size:17.83613586px;text-align:end;text-anchor:end;fill:url(#linearGradient1683);fill-opacity:1;stroke:none;stroke-width:0.66885513;stroke-opacity:1"
+           y="935.43518"
+           x="550.44464"
+           sodipodi:role="line">кооператива Благополучие</tspan><tspan
+           id="tspan1659"
+           style="font-size:17.83613586px;text-align:end;text-anchor:end;fill:url(#linearGradient1683);fill-opacity:1;stroke:none;stroke-width:0.66885513;stroke-opacity:1"
+           y="962.18939"
+           x="550.44464"
+           sodipodi:role="line" /><tspan
+           id="tspan1651"
+           style="font-weight:bold;font-size:17.83613586px;text-align:end;text-anchor:end;fill:url(#linearGradient1683);fill-opacity:1;stroke:none;stroke-width:0.66885513;stroke-opacity:1"
+           y="988.9436"
+           x="550.44464"
+           sodipodi:role="line">на сумму 5 монет WBN</tspan><tspan
+           id="tspan1657"
+           style="font-size:17.83613586px;text-align:end;text-anchor:end;fill:url(#linearGradient1683);fill-opacity:1;stroke:none;stroke-width:0.66885513;stroke-opacity:1"
+           y="1015.6978"
+           x="550.44464"
+           sodipodi:role="line" /><tspan
+           id="tspan1653"
+           style="font-style:italic;font-weight:normal;font-size:17.83613586px;text-align:end;text-anchor:end;fill:url(#linearGradient1683);fill-opacity:1;stroke:none;stroke-width:0.66885513;stroke-opacity:1"
+           y="1042.452"
+           x="550.44464"
+           sodipodi:role="line">  2020  WellBeing Network</tspan></text>
+      <g
+         id="g1504"
+         transform="matrix(1.878363,0,0,1.878363,3.5434285,390.25428)">
+        <g
+           id="g848">
+          <path
+             clip-path="none"
+             sodipodi:nodetypes="ccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path75"
+             d="M 21.567164,387.31248 39.5629,369.31675 h 17.995736 l 63.584934,-62.38522 26.39374,26.39375 -26.39374,26.39373 L 47.96091,288.9358 75.554372,261.34233 103.14783,288.9358 31.16489,360.91873 3.5714289,333.32528 29.965174,306.93153 93.550107,369.31675 h 17.995743 l 17.99573,17.99573"
+             style="fill:url(#radialGradient890);fill-opacity:1;stroke:url(#radialGradient936);stroke-width:1.19971573px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter2474)" />
+        </g>
+        <ellipse
+           style="fill:url(#radialGradient1559);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path857"
+           cx="75.250008"
+           cy="333.06247"
+           rx="29.5"
+           ry="30" />
+      </g>
+    </g>
+  </g>
+</svg>
