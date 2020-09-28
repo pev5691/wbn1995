@@ -1,6 +1,6 @@
-Разработка исходников клона ведется в ветке [wellbeing](https://github.com/pev5691/wbn1995/tree/wellbeing)
+### Разработка исходников клона ведется в ветке [wellbeing](https://github.com/pev5691/wbn1995/tree/wellbeing)
 <details>
-  <summary>Исходный текст создателя кода находится под сполером</summary>
+  <summary>Исходный текст создателя кода находится под спойлером</summary>
 
 # TERA PLATFORM
 
