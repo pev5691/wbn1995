@@ -1,4 +1,9 @@
-﻿# TERA PLATFORM
+Разработка исходников клона ведется в ветке [wellbeing](https://github.com/pev5691/wbn1995/tree/wellbeing)
+<details>
+  <summary>Исходный текст создателя кода находится под сполером</summary>
+  </details>
+
+# TERA PLATFORM
 
 * What is the project and what he does we recommend you to read this review article: [Decentralized applications on TERA platform](https://medium.com/@evkara777/decentralized-applications-on-tera-platform-2aa56b597ae9)
 * The following describes how to install it on your computer
