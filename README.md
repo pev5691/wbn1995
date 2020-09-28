@@ -1,7 +1,6 @@
 Разработка исходников клона ведется в ветке [wellbeing](https://github.com/pev5691/wbn1995/tree/wellbeing)
 <details>
   <summary>Исходный текст создателя кода находится под сполером</summary>
-  </details>
 
 # TERA PLATFORM
 
@@ -256,3 +255,4 @@ And re-create the database: by deleting the DATA/DB directory or through interfa
 ## RUS
  [Эта же страница на русском](https://gitlab.com/terafoundation/tera/tree/master/Doc/Rus)
 
+  </details>
