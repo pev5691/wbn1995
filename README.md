@@ -1,6 +1,4 @@
-﻿# WellBeing Network (WBN) platform
- 
- ![Alt-hjhjhjhтекст](https://github.com/pev5691/wbn1995/blob/wellbeing/Source/HTML/PIC/Tera_logo.svg)
+﻿# WellBeing Network (WBN) platform ![Alt-hjhjhjhтекст](https://github.com/pev5691/wbn1995/blob/wellbeing/Source/HTML/PIC/Tera_logo.svg)
  
  ### Публичная криптоплатформа нового типа для обеспечения функционала смарт-контрактов, создания децентрализованных приложений и автоматизации любых технологических процессов, потребных для осуществления своей деятельности как участникам сообщества так и самому проекту
  
