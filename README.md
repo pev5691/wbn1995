@@ -45,7 +45,35 @@ ____
 + Для создания нового счета необходимо отправить в сеть специальную транзакцию при помощи интерфейса кошелька , в которой указывается публичный ключ владельца и необязательный параметр - "Публичное имя": осмысленное название создаваемого счёта (строка до 40 байт длины).
 + Название желательно для проверки правильности ввода номера счета при отправке платежа.
 ____
+</details>
 
+## Установка
+
+ <details>
+ <summary>Установка на UBUNTU 18.4:</summary>
+ 
+____
+```
+apt-get install -y git
+apt-get install -y nodejs
+apt-get install -y npm
+npm install pm2 -g
+git clone https://gitlab.com/terafoundation/tera2.git wallet
+apt install build-essential
+apt group install "Development Tools"
+cd wallet/Source
+npm install
+node set httpport:8080 password:<secret word (no spaces)>
+pm2 start run-node.js
+```
+
+### open ports:
+
+```
+sudo ufw allow 30000/tcp
+sudo ufw allow 8080/tcp
+sudo ufw allow 80/tcp
+```
 </details>
 
 ## Запланировано
