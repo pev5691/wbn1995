@@ -76,6 +76,8 @@ sudo ufw allow 80/tcp
 ```
 </details>
 
+_____
+
 ## Запланировано
  <details>
  <summary>Идеи и концепции, которые предстоит реализовать</summary>
