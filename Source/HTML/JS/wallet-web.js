@@ -21,13 +21,16 @@ var ConnectedCount = 0;
 var NETWORK_NAME = "WBN-MAIN";
 var ServerMap = {};
 var ServerMainMap = {
-    "totoha.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":34734, "Name":"totoha", "System":1},
-    "wbn1.wellbeing.su":{"ip":"totoha.wellbeing.su", "port":3774, "Name":"wbn1", "System":1},
-    "vdska.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":34734, "Name":"vdska", "System":1},
-    "wbn3.wellbeing.su":{"ip":"vdska.wellbeing.su", "port":3774, "Name":"wbn3", "System":1},
+    "w1.wellbeing.su":{"ip":"w1.wellbeing.su", "port":34734, "Name":"wbn1", "System":1},
+    "w2.wellbeing.su":{"ip":"w2.wellbeing.su", "port":3774, "Name":"wbn2", "System":1},
+    "w3.wellbeing.su":{"ip":"w3.wellbeing.su", "port":7347, "Name":"wbn3", "System":1},
+    "w4.wellbeing.su":{"ip":"w4.wellbeing.su", "port":34734, "Name":"wbn4", "System":1},
+    "w5.wellbeing.su":{"ip":"w5.wellbeing.su", "port":3774, "Name":"wbn5", "System":1},
+    "w6.wellbeing.su":{"ip":"w6.wellbeing.su", "port":7347, "Name":"wbn6", "System":1},
     };
 var ServerTestMap = {"127.0.0.1":{"ip":"127.0.0.1", "port":80, "Name":"LOCAL"},
-    "dappsgate.com":{"ip":"dappsgate.com", "port":88, "Name":"SUPPORT1", "System":1}, };
+    "dappsgate.com":{"ip":"dappsgate.com", "port":88, "Name":"SUPPORT1", "System":1},
+    };
 
 function StartWebWallet()
 {
