@@ -57,10 +57,10 @@ global.ArrConnect = [];
 
 var FindList = [
     {"ip":"194.147.78.188", "port":34734}, {"ip":"w1.wellbeing.su", "port":34734},
-    {"ip":"194.147.78.188", "port":3774}, {"ip":"w2.wellbeing.su", "port":3774},
+    {"ip":"194.147.78.188", "port":3747}, {"ip":"w2.wellbeing.su", "port":3747},
     {"ip":"194.147.78.188", "port":7347}, {"ip":"w3.wellbeing.su", "port":7347},
     {"ip":"185.125.217.70", "port":34734}, {"ip":"w4.wellbeing.su", "port":34734},
-    {"ip":"185.125.217.70", "port":3774}, {"ip":"w5.wellbeing.su", "port":3774},
+    {"ip":"185.125.217.70", "port":3774}, {"ip":"w5.wellbeing.su", "port":3747},
     {"ip":"185.125.217.70", "port":7347}, {"ip":"w6.wellbeing.su", "port":7347}
 ];
 

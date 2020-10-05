@@ -18,20 +18,10 @@ global.START_NETWORK_DATE = 1599710077777      // Сутки - 86400000 милл
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
-//    {"ip":"127.0.0.1","port":34734},        // localhost wbn1
-//    {"ip":"127.0.0.1","port":50501},        // localhost wbn2
-//    {"ip":"127.0.0.1","port":50502},        // localhost wbn3
-    {"ip":"185.125.217.70","port":34734},   // ihor totoha
-    {"ip":"185.125.217.70","port":3774},   // ihor totoha
-    {"ip":"185.125.217.70","port":7347},   // ihor totoha
-    {"ip":"194.147.78.188","port":34734},   // Vdska 194.147.78.188
-    {"ip":"194.147.78.188","port":3774},   // Vdska 194.147.78.188
-    {"ip":"194.147.78.188","port":7347}   // Vdska 194.147.78.188
+    {"ip":"194.147.78.188","port":34734},    // Vdska wbnwallet w1
+    {"ip":"194.147.78.188","port":3747},     // Vdska wbn3      w2
+    {"ip":"194.147.78.188","port":7347},     // Vdska wbn4      w3
+    {"ip":"185.125.217.70","port":34734},    // totoihor wbn5   w4
+    {"ip":"185.125.217.70","port":3747},     // totoihor wbn6   w5
+    {"ip":"185.125.217.70","port":7347}      // totoihor wbn7   w6
 ];
-
-/*
-34347   //  admin port   HTTP_PORT_NUMBER
-34374   //  node port    NET_WORK_MODE
-34734   //  wallet port  HTTP_HOSTING_PORT
-37434   //  jinn port    JINN_PORT
-*/
