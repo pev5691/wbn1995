@@ -18,10 +18,10 @@ global.START_NETWORK_DATE = 1599710077777      // Сутки - 86400000 мили
 global.CONSENSUS_PERIOD_TIME = 3000; //ms
 
 global.FORK_IP_LIST = [
-    {"ip":"194.147.78.188","port":34734},    // Vdska wbnwallet порт вебморды w1
-    {"ip":"194.147.78.188","port":3747},     // Vdska wbn3      порт вебморды w2
-    {"ip":"194.147.78.188","port":7347},     // Vdska wbn4      порт вебморды w3
-    {"ip":"185.125.217.70","port":34734},    // totoihor wbn5   порт вебморды w4
-    {"ip":"185.125.217.70","port":3747},     // totoihor wbn6   порт вебморды w5
-    {"ip":"185.125.217.70","port":7347}      // totoihor wbn7   порт вебморды w6
+    {"ip":"194.147.78.188","port":34347},    // Vdska wbnwallet порт вебморды w1
+    {"ip":"194.147.78.188","port":3477},     // Vdska wbn3      порт вебморды w2
+    {"ip":"194.147.78.188","port":7734},     // Vdska wbn4      порт вебморды w3
+    {"ip":"185.125.217.70","port":34347},    // totoihor wbn5   порт вебморды w4
+    {"ip":"185.125.217.70","port":3477},     // totoihor wbn6   порт вебморды w5
+    {"ip":"185.125.217.70","port":7734}      // totoihor wbn7   порт вебморды w6
 ];
